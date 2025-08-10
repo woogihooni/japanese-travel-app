@@ -25,7 +25,7 @@ backButton.addEventListener('click', () => {
     if (dialogueList.style.display === 'block') {
         // 대화 목록 -> 서브 상황 목록
         displaySubSituations(currentMainCategory.main_category_title, currentMainCategory.sub_situations);
-    } else if (subSituationList.style.display === 'block') {
+    } else if (subSituationList.style.display === 'flex') {
         // 서브 상황 목록 -> 메인 카테고리 목록
         displayMainCategories();
     }
