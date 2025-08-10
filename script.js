@@ -128,6 +128,11 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
             
             const firstReplacement = line.replacements[0];
             
+            // 원문에서 교체될 일본어 및 발음 부분을 미리 찾아 데이터 속성에 저장
+            // 이 로직은 `phrases.json`의 `replacements` 구조에 맞춰 원문에서 교체 대상을 유추합니다.
+            const originalJapaneseTarget = firstReplacement.japanese_alternatives[0];
+            const originalPronunciationTarget = firstReplacement.pronunciation_alternatives[0];
+            
             firstReplacement.alternatives.forEach((alt, altIndex) => {
                 const button = document.createElement('button');
                 button.className = 'replacement-button';
@@ -138,7 +143,6 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
                     const koreanEl = dialogueBox.querySelector('.korean');
                     const japaneseEl = dialogueBox.querySelector('.japanese');
                     const pronunciationEl = dialogueBox.querySelector('.pronunciation');
-
                     const currentButtons = replacementsContainer.querySelectorAll('.replacement-button');
 
                     // 이미 선택된 버튼을 다시 클릭하면 원문으로 돌아가도록 처리
@@ -149,13 +153,9 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
                         currentButtons.forEach(btn => btn.classList.remove('selected'));
                     } else {
                         // 교체 로직
-                        const target = firstReplacement.target;
-                        const japaneseTarget = firstReplacement.japanese_alternatives[0];
-                        const pronunciationTarget = firstReplacement.pronunciation_alternatives[0];
-
-                        const newKorean = line.korean.replace(target, alt);
-                        const newJapanese = line.japanese.replace(japaneseTarget, firstReplacement.japanese_alternatives[altIndex]);
-                        const newPronunciation = line.pronunciation.replace(pronunciationTarget, firstReplacement.pronunciation_alternatives[altIndex]);
+                        const newKorean = dialogueBox.dataset.originalKorean.replace(firstReplacement.target, alt);
+                        const newJapanese = dialogueBox.dataset.originalJapanese.replace(originalJapaneseTarget, firstReplacement.japanese_alternatives[altIndex]);
+                        const newPronunciation = dialogueBox.dataset.originalPronunciation.replace(originalPronunciationTarget, firstReplacement.pronunciation_alternatives[altIndex]);
                         
                         koreanEl.textContent = newKorean;
                         japaneseEl.textContent = newJapanese;
