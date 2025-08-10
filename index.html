@@ -9,18 +9,19 @@
 <body>
 
     <header>
-        <h1>초보 여행자를 위한 일본어 회화</h1>
+        <h1 id="main-title">초보 여행자를 위한<br>일본어 회화</h1>
+        <button id="back-button" class="back-button" style="display: none;">뒤로가기</button>
     </header>
 
     <main>
-        <div id="main-category-list"></div>
+        <div id="main-category-list" class="container"></div>
 
-        <div id="sub-situation-list"></div>
+        <div id="sub-situation-list" class="container" style="display: none;">
+            <h2 id="sub-situation-title"></h2>
+        </div>
 
-        <div id="dialogue-list">
+        <div id="dialogue-list" class="container" style="display: none;">
             <h2 id="dialogue-title"></h2>
-            <button id="start-dialogue-button" style="display: none;">대화 시작</button>
-            <div id="dialogue-content"></div>
         </div>
     </main>
 

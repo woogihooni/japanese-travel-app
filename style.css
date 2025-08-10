@@ -20,6 +20,15 @@ header {
 h1 {
     font-size: 1.8rem;
     color: #2c3e50;
+    line-height: 1.4;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 main {
@@ -27,13 +36,13 @@ main {
     max-width: 600px;
 }
 
-/* 메인/서브 카테고리 버튼 스타일 */
-#main-category-list, #sub-situation-list {
+.container {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
+/* 메인/서브 카테고리 버튼 스타일 */
 .main-category-button, .sub-situation-button {
     width: 100%;
     padding: 15px;
@@ -50,19 +59,13 @@ main {
     background-color: #e8f0fe;
 }
 
-/* 대화 화면 제목 및 버튼 스타일 */
-#dialogue-title {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #2c3e50;
-}
-
-#start-dialogue-button {
-    width: 100%;
-    padding: 15px;
-    font-size: 1.2rem;
-    background-color: #3498db;
+/* 뒤로가기 버튼 스타일 */
+.back-button {
+    width: 150px;
+    padding: 10px;
+    margin: 20px auto 0;
+    font-size: 1rem;
+    background-color: #95a5a6;
     color: white;
     border: none;
     border-radius: 8px;
@@ -70,17 +73,11 @@ main {
     transition: background-color 0.2s;
 }
 
-#start-dialogue-button:hover {
-    background-color: #2980b9;
+.back-button:hover {
+    background-color: #7f8c8d;
 }
 
 /* 대화 상자 스타일 */
-#dialogue-content {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
 .dialogue-box {
     background-color: #ffffff;
     border-radius: 8px;
@@ -98,17 +95,13 @@ main {
 .dialogue-box .speaker {
     font-weight: bold;
     color: #2980b9;
-    margin: 0;
-    display: inline-block;
-    min-width: 40px;
+    margin: 0 0 5px;
 }
 
 .dialogue-box .korean {
     font-size: 1rem;
     color: #333;
-    margin: 5px 0 0 0;
-    display: inline-block;
-    vertical-align: top;
+    margin: 0;
 }
 
 .dialogue-box hr {
@@ -117,13 +110,25 @@ main {
     margin: 10px 0;
 }
 
+/* 클릭 시 표시되는 일본어와 발음 스타일 */
 .dialogue-box .japanese, .dialogue-box .pronunciation {
-    font-size: 1rem;
-    color: #555;
-    margin: 5px 0 0 0;
+    display: none; /* 초기에는 숨김 */
+    margin: 10px 0 0 0;
 }
 
-/* 숨겨진 텍스트 스타일 */
-.hidden {
-    display: none;
+.dialogue-box .japanese {
+    font-size: 1.2rem;
+    font-weight: bold; /* 일본어는 굵게 */
+    color: #2c3e50;
+}
+
+.dialogue-box .pronunciation {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+/* 클릭 시 보여주기 */
+.dialogue-box.active .japanese,
+.dialogue-box.active .pronunciation {
+    display: block;
 }
