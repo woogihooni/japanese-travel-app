@@ -16,7 +16,7 @@ fetch('phrases.json')
     .then(response => response.json())
     .then(data => {
         currentData = data.data; // 데이터 저장
-        displayMainCategories();
+        displayMainCategories(); // 데이터 로드 완료 후 함수 호출
     })
     .catch(error => console.error('Error fetching data:', error));
 
@@ -101,7 +101,7 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
 
         // 일본어와 발음은 숨겨진 상태로 추가
         const hiddenContent = document.createElement('div');
-        hiddenContent.classList.add('hidden'); // hidden 클래스 사용
+        hiddenContent.classList.add('hidden');
         hiddenContent.innerHTML = `
             <p class="japanese">${line.japanese}</p>
             <p class="pronunciation">${line.pronunciation}</p>
@@ -117,6 +117,3 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
         dialogueList.appendChild(dialogueBox);
     });
 }
-
-// 초기 화면 표시
-displayMainCategories();
