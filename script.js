@@ -121,18 +121,23 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
           const replacementsContainer = document.createElement('div');
           replacementsContainer.className = 'replacements-container';
           
-          line.replacements[0].alternatives.forEach((alt, altIndex) => {
+          const firstReplacement = line.replacements[0];
+          
+          firstReplacement.alternatives.forEach((alt, altIndex) => {
             const button = document.createElement('button');
             button.className = 'replacement-button';
             button.textContent = alt;
             button.addEventListener('click', (e) => {
               e.stopPropagation(); // 대화 박스의 클릭 이벤트 전파 방지
               
-              // 문장 변경 로직
-              const target = line.replacements[0].target;
+              // 올바른 문장 변경 로직
+              const target = firstReplacement.target;
+              const japaneseTarget = firstReplacement.japanese_alternatives[0];
+              const pronunciationTarget = firstReplacement.pronunciation_alternatives[0];
+
               const newKorean = line.korean.replace(target, alt);
-              const newJapanese = line.japanese.replace(line.replacements[0].japanese_alternatives[0], line.replacements[0].japanese_alternatives[altIndex]);
-              const newPronunciation = line.pronunciation.replace(line.replacements[0].pronunciation_alternatives[0], line.replacements[0].pronunciation_alternatives[altIndex]);
+              const newJapanese = line.japanese.replace(japaneseTarget, firstReplacement.japanese_alternatives[altIndex]);
+              const newPronunciation = line.pronunciation.replace(pronunciationTarget, firstReplacement.pronunciation_alternatives[altIndex]);
               
               // 화면 업데이트
               dialogueBox.querySelector('.korean').textContent = newKorean;
