@@ -89,7 +89,7 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
     dialogueList.innerHTML = '';
     dialogueList.appendChild(dialogueTitle);
 
-    dialogues.forEach((line, lineIndex) => {
+    dialogues.forEach(line => {
         const dialogueBox = document.createElement('div');
         dialogueBox.className = 'dialogue-box';
 
@@ -132,9 +132,16 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
               
               // 올바른 문장 변경 로직
               const target = firstReplacement.target;
-              const japaneseTarget = firstReplacement.japanese_alternatives[0];
-              const pronunciationTarget = firstReplacement.pronunciation_alternatives[0];
-
+              
+              // 원문에서 교체 대상이 되는 일본어와 발음 부분을 찾습니다.
+              // 이 로직은 한글 문장을 기준으로 일본어와 발음 문장에서 교체될 부분을 유추합니다.
+              // 예를 들어 "매일 신문을 읽습니까?"에서 "신문을 읽습니까?"를 교체해야 한다면
+              // 일본어 원문 "毎日新聞を読みますか？" 에서 "毎日"를 제외한 "新聞を読みますか？"가 교체 대상이 됩니다.
+              
+              const koreanPrefix = line.korean.split(target)[0];
+              const japaneseTarget = line.japanese.replace(line.japanese.split('毎日')[0] + '毎日', '');
+              const pronunciationTarget = line.pronunciation.replace(line.pronunciation.split('마이니치')[0] + '마이니치', '');
+              
               const newKorean = line.korean.replace(target, alt);
               const newJapanese = line.japanese.replace(japaneseTarget, firstReplacement.japanese_alternatives[altIndex]);
               const newPronunciation = line.pronunciation.replace(pronunciationTarget, firstReplacement.pronunciation_alternatives[altIndex]);
