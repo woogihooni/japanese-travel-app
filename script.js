@@ -101,18 +101,18 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
 
         // 일본어와 발음은 숨겨진 상태로 추가
         const hiddenContent = document.createElement('div');
-        hiddenContent.classList.add('hidden');
         hiddenContent.innerHTML = `
             <p class="japanese">${line.japanese}</p>
             <p class="pronunciation">${line.pronunciation}</p>
         `;
-
+        // hidden 클래스를 토글하기 위해 hiddenContent 대신 dialogueBox에 active 클래스를 추가
+        
         dialogueBox.appendChild(koreanContent);
         dialogueBox.appendChild(hiddenContent);
 
         // 클릭하면 일본어/발음 보여주기/숨기기 토글
         dialogueBox.addEventListener('click', () => {
-            hiddenContent.classList.toggle('hidden');
+            dialogueBox.classList.toggle('active');
         });
         dialogueList.appendChild(dialogueBox);
     });
