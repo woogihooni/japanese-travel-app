@@ -132,3 +132,35 @@ main {
 .dialogue-box.active .pronunciation {
     display: block;
 }
+
+/* 대체 단어 버튼 컨테이너 */
+.replacements-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+/* 대체 단어 버튼 스타일 */
+.replacement-button {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: 1px solid #3498db;
+    background-color: #f0f8ff;
+    color: #3498db;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.replacement-button:hover {
+    background-color: #e8f0fe;
+}
+
+.replacement-button.selected {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+}

@@ -40,16 +40,18 @@ function displayMainCategories() {
     dialogueList.style.display = 'none';
 
     mainCategoryList.innerHTML = '';
-    currentData.forEach(category => {
-        const button = document.createElement('button');
-        button.className = 'main-category-button';
-        button.textContent = category.main_category_title;
-        button.addEventListener('click', () => {
-            currentMainCategory = category;
-            displaySubSituations(category.main_category_title, category.sub_situations);
+    if (currentData) {
+        currentData.forEach(category => {
+            const button = document.createElement('button');
+            button.className = 'main-category-button';
+            button.textContent = category.main_category_title;
+            button.addEventListener('click', () => {
+                currentMainCategory = category;
+                displaySubSituations(category.main_category_title, category.sub_situations);
+            });
+            mainCategoryList.appendChild(button);
         });
-        mainCategoryList.appendChild(button);
-    });
+    }
 }
 
 // 서브 상황 목록을 보여주는 함수
@@ -87,7 +89,7 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
     dialogueList.innerHTML = '';
     dialogueList.appendChild(dialogueTitle);
 
-    dialogues.forEach(line => {
+    dialogues.forEach((line, lineIndex) => {
         const dialogueBox = document.createElement('div');
         dialogueBox.className = 'dialogue-box';
 
@@ -113,6 +115,39 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
         dialogueBox.addEventListener('click', () => {
             dialogueBox.classList.toggle('active');
         });
+        
+        // 대체 단어 기능 추가
+        if (line.replacements && line.replacements.length > 0) {
+          const replacementsContainer = document.createElement('div');
+          replacementsContainer.className = 'replacements-container';
+          
+          line.replacements[0].alternatives.forEach((alt, altIndex) => {
+            const button = document.createElement('button');
+            button.className = 'replacement-button';
+            button.textContent = alt;
+            button.addEventListener('click', (e) => {
+              e.stopPropagation(); // 대화 박스의 클릭 이벤트 전파 방지
+              
+              // 문장 변경 로직
+              const target = line.replacements[0].target;
+              const newKorean = line.korean.replace(target, alt);
+              const newJapanese = line.japanese.replace(line.replacements[0].japanese_alternatives[0], line.replacements[0].japanese_alternatives[altIndex]);
+              const newPronunciation = line.pronunciation.replace(line.replacements[0].pronunciation_alternatives[0], line.replacements[0].pronunciation_alternatives[altIndex]);
+              
+              // 화면 업데이트
+              dialogueBox.querySelector('.korean').textContent = newKorean;
+              dialogueBox.querySelector('.japanese').textContent = newJapanese;
+              dialogueBox.querySelector('.pronunciation').textContent = newPronunciation;
+              
+              // 현재 선택된 버튼 스타일 적용
+              replacementsContainer.querySelectorAll('.replacement-button').forEach(btn => btn.classList.remove('selected'));
+              button.classList.add('selected');
+            });
+            replacementsContainer.appendChild(button);
+          });
+          dialogueBox.appendChild(replacementsContainer);
+        }
+        
         dialogueList.appendChild(dialogueBox);
     });
 }

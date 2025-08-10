@@ -7,7 +7,20 @@
         {
           "title": "지하철",
           "dialogues": [
-            { "speaker": "A: 여행객", "korean": "죄송합니다, 도쿄역은 어디예요?", "japanese": "すみません、東京駅はどこですか？", "pronunciation": "스미마셍, 토-쿄-에키와 도코데스까?" },
+            {
+              "speaker": "A: 여행객",
+              "korean": "죄송합니다, 도쿄역은 어디예요?",
+              "japanese": "すみません、東京駅はどこですか？",
+              "pronunciation": "스미마셍, 토-쿄-에키와 도코데스까?",
+              "replacements": [
+                {
+                  "target": "도쿄역",
+                  "alternatives": ["신주쿠역", "시부야역", "우에노역"],
+                  "japanese_alternatives": ["新宿駅", "渋谷駅", "上野駅"],
+                  "pronunciation_alternatives": ["신주쿠에키", "시부야에키", "우에노에키"]
+                }
+              ]
+            },
             { "speaker": "B: 현지인", "korean": "이 지하철을 타세요.", "japanese": "この地下鉄に乗ってください。", "pronunciation": "코노 치카테츠니 놋테 쿠다사이." },
             { "speaker": "A: 여행객", "korean": "어느 방면인가요?", "japanese": "どちらの方面ですか？", "pronunciation": "도치라노 호-멘데스까?" },
             { "speaker": "B: 현지인", "korean": "○○행 전철입니다.", "japanese": "○○行きの電車です。", "pronunciation": "마루마루유키노 덴샤데스." }
