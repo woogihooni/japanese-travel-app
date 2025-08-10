@@ -27,14 +27,14 @@ main {
     max-width: 600px;
 }
 
-/* 카테고리 버튼 스타일 */
-#category-list {
+/* 메인/서브 카테고리 버튼 스타일 */
+#main-category-list, #sub-situation-list {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.category-button {
+.main-category-button, .sub-situation-button {
     width: 100%;
     padding: 15px;
     font-size: 1.2rem;
@@ -46,56 +46,22 @@ main {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.category-button:hover {
+.main-category-button:hover, .sub-situation-button:hover {
     background-color: #e8f0fe;
 }
 
-/* 회화 문장 카드 스타일 */
-#phrase-list {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.phrase-card {
-    background-color: #ffffff;
-    border-radius: 8px;
-    padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.phrase-card:active {
-    transform: scale(0.98);
-}
-
-.phrase-card .korean {
-    font-size: 1rem;
-    color: #777;
-    margin: 0 0 5px 0;
-}
-
-.phrase-card .japanese {
+/* 대화 화면 제목 및 버튼 스타일 */
+#dialogue-title {
     font-size: 1.5rem;
-    font-weight: bold;
-    color: #2c3e50;
-    margin: 0 0 5px 0;
-}
-
-.phrase-card .pronunciation {
-    font-size: 0.9rem;
-    color: #999;
-    font-style: italic;
-    margin: 0;
-}
-
-.back-button {
-    width: 100%;
-    padding: 10px;
+    text-align: center;
     margin-bottom: 20px;
-    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+#start-dialogue-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
     background-color: #3498db;
     color: white;
     border: none;
@@ -104,6 +70,60 @@ main {
     transition: background-color 0.2s;
 }
 
-.back-button:hover {
+#start-dialogue-button:hover {
     background-color: #2980b9;
+}
+
+/* 대화 상자 스타일 */
+#dialogue-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dialogue-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.dialogue-box:active {
+    transform: scale(0.98);
+}
+
+.dialogue-box .speaker {
+    font-weight: bold;
+    color: #2980b9;
+    margin: 0;
+    display: inline-block;
+    min-width: 40px;
+}
+
+.dialogue-box .korean {
+    font-size: 1rem;
+    color: #333;
+    margin: 5px 0 0 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dialogue-box hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
+
+.dialogue-box .japanese, .dialogue-box .pronunciation {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0 0 0;
+}
+
+/* 숨겨진 텍스트 스타일 */
+.hidden {
+    display: none;
 }
