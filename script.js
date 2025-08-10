@@ -1,65 +1,99 @@
 // HTML 요소 가져오기
-const categoryList = document.getElementById('category-list');
-const phraseList = document.getElementById('phrase-list');
+const mainCategoryList = document.getElementById('main-category-list');
+const subSituationList = document.getElementById('sub-situation-list');
+const dialogueList = document.getElementById('dialogue-list');
+const header = document.querySelector('header h1');
 
 // JSON 파일 불러오기
 fetch('phrases.json')
     .then(response => response.json())
     .then(data => {
-        // 데이터 로드 성공 후 카테고리 표시
-        displayCategories(data.data);
+        header.textContent = data.app_title;
+        displayMainCategories(data.data);
     })
     .catch(error => console.error('Error fetching data:', error));
 
-// 카테고리 목록을 화면에 보여주는 함수
-function displayCategories(categories) {
-    categoryList.innerHTML = ''; // 기존 내용 지우기
-    phraseList.innerHTML = ''; // 문장 목록도 지우기
+// 메인 카테고리 목록을 보여주는 함수
+function displayMainCategories(categories) {
+    mainCategoryList.innerHTML = '';
+    subSituationList.innerHTML = '';
+    dialogueList.innerHTML = '';
 
     categories.forEach(category => {
         const button = document.createElement('button');
-        button.className = 'category-button';
-        button.textContent = category.category_title;
+        button.className = 'main-category-button';
+        button.textContent = category.main_category_title;
         button.addEventListener('click', () => {
-            displayPhrases(category.phrases);
+            displaySubSituations(category.main_category_title, category.sub_situations);
         });
-        categoryList.appendChild(button);
+        mainCategoryList.appendChild(button);
     });
 }
 
-// 회화 문장을 화면에 보여주는 함수
-function displayPhrases(phrases) {
-    categoryList.style.display = 'none'; // 카테고리 버튼 숨기기
-    phraseList.innerHTML = ''; // 기존 내용 지우기
+// 서브 상황 목록을 보여주는 함수
+function displaySubSituations(mainTitle, subSituations) {
+    mainCategoryList.style.display = 'none';
+    subSituationList.innerHTML = '';
+    dialogueList.innerHTML = '';
 
     // 뒤로가기 버튼 추가
     const backButton = document.createElement('button');
     backButton.className = 'back-button';
     backButton.textContent = '뒤로가기';
     backButton.addEventListener('click', () => {
-        location.reload(); // 새로고침으로 처음 화면으로 돌아가기
+        location.reload();
     });
-    phraseList.appendChild(backButton);
+    subSituationList.appendChild(backButton);
 
-    phrases.forEach(phrase => {
+    subSituations.forEach(sub => {
+        const button = document.createElement('button');
+        button.className = 'sub-situation-button';
+        button.textContent = sub.title;
+        button.addEventListener('click', () => {
+            displayDialogue(sub.dialogues);
+        });
+        subSituationList.appendChild(button);
+    });
+}
+
+// 대화 문장을 보여주는 함수
+function displayDialogue(dialogues) {
+    subSituationList.style.display = 'none';
+    dialogueList.innerHTML = '';
+
+    // 뒤로가기 버튼 추가 (대화 목록에서 서브 상황 목록으로)
+    const backButton = document.createElement('button');
+    backButton.className = 'back-button';
+    backButton.textContent = '뒤로가기';
+    backButton.addEventListener('click', () => {
+        // 새로고침 대신 서브 상황 목록으로 돌아가는 로직 추가 가능
+        location.reload(); // 일단은 간단하게 새로고침으로 구현
+    });
+    dialogueList.appendChild(backButton);
+
+    dialogues.forEach(line => {
         const card = document.createElement('div');
-        card.className = 'phrase-card';
+        card.className = 'dialogue-card';
+
+        const speaker = document.createElement('p');
+        speaker.className = 'speaker';
+        speaker.textContent = line.speaker;
 
         const koreanText = document.createElement('p');
         koreanText.className = 'korean';
-        koreanText.textContent = phrase.korean;
+        koreanText.textContent = line.korean;
 
         const japaneseText = document.createElement('p');
         japaneseText.className = 'japanese';
-        japaneseText.textContent = phrase.japanese;
+        japaneseText.textContent = line.japanese;
         
         const pronunciationText = document.createElement('p');
         pronunciationText.className = 'pronunciation';
-        pronunciationText.textContent = phrase.pronunciation;
+        pronunciationText.textContent = line.pronunciation;
 
         // 클릭하면 일본어 텍스트가 클립보드에 복사되는 기능 추가
         card.addEventListener('click', () => {
-            navigator.clipboard.writeText(phrase.japanese)
+            navigator.clipboard.writeText(line.japanese)
                 .then(() => {
                     alert('일본어 문장이 복사되었습니다.');
                 })
@@ -68,9 +102,10 @@ function displayPhrases(phrases) {
                 });
         });
 
+        card.appendChild(speaker);
         card.appendChild(koreanText);
         card.appendChild(japaneseText);
         card.appendChild(pronunciationText);
-        phraseList.appendChild(card);
+        dialogueList.appendChild(card);
     });
 }
