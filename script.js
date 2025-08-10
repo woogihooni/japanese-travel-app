@@ -93,6 +93,11 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
         const dialogueBox = document.createElement('div');
         dialogueBox.className = 'dialogue-box';
 
+        // 원문 텍스트를 data 속성에 저장
+        dialogueBox.dataset.originalKorean = line.korean;
+        dialogueBox.dataset.originalJapanese = line.japanese;
+        dialogueBox.dataset.originalPronunciation = line.pronunciation;
+
         // 한글 대화 내용만 먼저 표시
         const koreanContent = document.createElement('div');
         koreanContent.innerHTML = `
@@ -130,25 +135,35 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
                 button.addEventListener('click', (e) => {
                     e.stopPropagation(); // 대화 박스의 클릭 이벤트 전파 방지
                     
-                    // 올바른 문장 변경 로직
-                    const target = firstReplacement.target;
-                    
-                    // JSON 파일의 첫 번째 alternatives 값을 기준으로 교체 대상을 찾습니다.
-                    const japaneseTarget = firstReplacement.japanese_alternatives[0];
-                    const pronunciationTarget = firstReplacement.pronunciation_alternatives[0];
-                    
-                    const newKorean = line.korean.replace(target, alt);
-                    const newJapanese = line.japanese.replace(japaneseTarget, firstReplacement.japanese_alternatives[altIndex]);
-                    const newPronunciation = line.pronunciation.replace(pronunciationTarget, firstReplacement.pronunciation_alternatives[altIndex]);
-                    
-                    // 화면 업데이트
-                    dialogueBox.querySelector('.korean').textContent = newKorean;
-                    dialogueBox.querySelector('.japanese').textContent = newJapanese;
-                    dialogueBox.querySelector('.pronunciation').textContent = newPronunciation;
-                    
-                    // 현재 선택된 버튼 스타일 적용
-                    replacementsContainer.querySelectorAll('.replacement-button').forEach(btn => btn.classList.remove('selected'));
-                    button.classList.add('selected');
+                    const koreanEl = dialogueBox.querySelector('.korean');
+                    const japaneseEl = dialogueBox.querySelector('.japanese');
+                    const pronunciationEl = dialogueBox.querySelector('.pronunciation');
+
+                    const currentButtons = replacementsContainer.querySelectorAll('.replacement-button');
+
+                    // 이미 선택된 버튼을 다시 클릭하면 원문으로 돌아가도록 처리
+                    if (button.classList.contains('selected')) {
+                        koreanEl.textContent = dialogueBox.dataset.originalKorean;
+                        japaneseEl.textContent = dialogueBox.dataset.originalJapanese;
+                        pronunciationEl.textContent = dialogueBox.dataset.originalPronunciation;
+                        currentButtons.forEach(btn => btn.classList.remove('selected'));
+                    } else {
+                        // 교체 로직
+                        const target = firstReplacement.target;
+                        const japaneseTarget = firstReplacement.japanese_alternatives[0];
+                        const pronunciationTarget = firstReplacement.pronunciation_alternatives[0];
+
+                        const newKorean = line.korean.replace(target, alt);
+                        const newJapanese = line.japanese.replace(japaneseTarget, firstReplacement.japanese_alternatives[altIndex]);
+                        const newPronunciation = line.pronunciation.replace(pronunciationTarget, firstReplacement.pronunciation_alternatives[altIndex]);
+                        
+                        koreanEl.textContent = newKorean;
+                        japaneseEl.textContent = newJapanese;
+                        pronunciationEl.textContent = newPronunciation;
+                        
+                        currentButtons.forEach(btn => btn.classList.remove('selected'));
+                        button.classList.add('selected');
+                    }
                 });
                 replacementsContainer.appendChild(button);
             });
