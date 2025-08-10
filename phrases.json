@@ -1,349 +1,326 @@
 {
-  "app_title": "초보 여행자를 위한 일본어 회화",
-  "data": [
-    {
-      "main_category_title": "길 찾기",
-      "sub_situations": [
-        {
-          "title": "지하철",
-          "dialogues": [
-            {
-              "speaker": "A: 여행객",
-              "korean": "죄송합니다, 도쿄역은 어디예요?",
-              "japanese": "すみません、東京駅はどこですか？",
-              "pronunciation": "스미마셍, 토-쿄-에키와 도코데스까?",
-              "replacements": [
-                {
-                  "target": "도쿄역",
-                  "alternatives": ["신주쿠역", "시부야역", "우에노역"],
-                  "japanese_alternatives": ["新宿駅", "渋谷駅", "上野駅"],
-                  "pronunciation_alternatives": ["신주쿠에키", "시부야에키", "우에노에키"]
-                }
-              ]
-            },
-            { "speaker": "B: 현지인", "korean": "이 지하철을 타세요.", "japanese": "この地下鉄に乗ってください。", "pronunciation": "코노 치카테츠니 놋테 쿠다사이." },
-            { "speaker": "A: 여행객", "korean": "어느 방면인가요?", "japanese": "どちらの方面ですか？", "pronunciation": "도치라노 호-멘데스까?" },
-            { "speaker": "B: 현지인", "korean": "○○행 전철입니다.", "japanese": "○○行きの電車です。", "pronunciation": "마루마루유키노 덴샤데스." }
-          ]
-        },
-        {
-          "title": "버스",
-          "dialogues": [
-            { "speaker": "A: 여행객", "korean": "이 버스는 시부야에 가나요?", "japanese": "このバスは渋谷に行きますか？", "pronunciation": "코노 바스와 시부야니 이키마스까?" },
-            { "speaker": "B: 현지인", "korean": "네, 갑니다.", "japanese": "はい、行きますよ。", "pronunciation": "하이, 이키마스요." },
-            { "speaker": "A: 여행객", "korean": "어디서 내리나요?", "japanese": "どこで降りますか？", "pronunciation": "도코데 오리마스까?" },
-            { "speaker": "B: 현지인", "korean": "다음 정류장에서 내리세요.", "japanese": "次のバス停で降りてください。", "pronunciation": "츠기노 바스테-데 오리테 쿠다사이." }
-          ]
-        },
-        {
-          "title": "택시",
-          "dialogues": [
-            { "speaker": "A: 여행객", "korean": "죄송합니다, 이 주소까지 부탁합니다.", "japanese": "すみません、この住所までお願いします。", "pronunciation": "스미마셍, 코노 쥬-쇼마데 오네가이시마스." },
-            { "speaker": "B: 택시기사", "korean": "네, 알겠습니다.", "japanese": "はい、かしこまりました。", "pronunciation": "하이, 카시코마리마시타." },
-            { "speaker": "A: 여행객", "korean": "서둘러주세요.", "japanese": "急いでください。", "pronunciation": "이소이데 쿠다사이." },
-            { "speaker": "B: 택시기사", "korean": "네, 알겠습니다.", "japanese": "はい、わかりました。", "pronunciation": "하이, 와카리마시타." }
-          ]
-        },
-        {
-          "title": "걸어서 갈 때",
-          "dialogues": [
-            { "speaker": "A: 여행객", "korean": "죄송합니다, 이 지도의 장소는 어디예요?", "japanese": "すみません、この地図の場所はどこですか？", "pronunciation": "스미마셍, 코노 치즈노 바쇼와 도코데스까?" },
-            { "speaker": "B: 현지인", "korean": "이 길로 곧장 가세요.", "japanese": "この道をまっすぐ行ってください。", "pronunciation": "코노 미치오 맛스구 잇테 쿠다사이." },
-            { "speaker": "A: 여행객", "korean": "얼마나 걸리나요?", "japanese": "どれくらいかかりますか？", "pronunciation": "도레쿠라이 카카리마스까?" },
-            { "speaker": "B: 현지인", "korean": "10분 정도입니다.", "japanese": "１０分ぐらいです。", "pronunciation": "쥽분 구라이데스." }
-          ]
-        }
-      ]
-    },
-    {
-      "main_category_title": "쇼핑",
-      "sub_situations": [
-        {
-          "title": "신발/구두/운동화",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "이 신발, 보여주세요.", "japanese": "この靴、見せてください。", "pronunciation": "코노 쿠츠, 미세테 쿠다사이." },
-            { "speaker": "B: 점원", "korean": "네, 여기 있습니다.", "japanese": "はい、どうぞ。", "pronunciation": "하이, 도-조." },
-            { "speaker": "A: 손님", "korean": "24.5cm 있나요?", "japanese": "２４．５センチありますか？", "pronunciation": "니-욘-고 센치 아리마스까?" },
-            { "speaker": "B: 점원", "korean": "네, 있습니다.", "japanese": "はい、ございます。", "pronunciation": "하이, 고자이마스." },
-            { "speaker": "A: 손님", "korean": "신어봐도 될까요?", "japanese": "試着してもいいですか？", "pronunciation": "시챠쿠시테모 이이데스까?" },
-            { "speaker": "B: 점원", "korean": "네.", "japanese": "どうぞ。", "pronunciation": "도-조." }
-          ]
-        },
-        {
-          "title": "가방",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "죄송합니다, 이 가방 보여주세요.", "japanese": "すみません、このバッグを見せてください。", "pronunciation": "스미마셍, 코노 밧구오 미세테 쿠다사이." },
-            { "speaker": "B: 점원", "korean": "네, 알겠습니다.", "japanese": "はい、かしこまりました。", "pronunciation": "하이, 카시코마리마시타." },
-            { "speaker": "A: 손님", "korean": "이거 다른 색상 있나요?", "japanese": "これの色違いはありますか？", "pronunciation": "코레노 이로치가이와 아리마스까?" },
-            { "speaker": "B: 점원", "korean": "네, 이쪽입니다.", "japanese": "はい、こちらです。", "pronunciation": "하이, 코치라데스." }
-          ]
-        },
-        {
-          "title": "옷(바지/상의/양복)",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "이 옷, 입어봐도 될까요?", "japanese": "この服、試着してもいいですか？", "pronunciation": "코노 후쿠, 시챠쿠시테모 이이데스까?" },
-            { "speaker": "B: 점원", "korean": "네, 탈의실로 가세요.", "japanese": "はい、試着室へどうぞ。", "pronunciation": "하이, 시챠쿠시츠에 도-조." },
-            { "speaker": "A: 손님", "korean": "이 바지, 좀 더 큰 사이즈 있나요?", "japanese": "このズボン、もう少し大きいサイズはありますか？", "pronunciation": "코노 즈본, 모- 스코시 오-키-사이즈와 아리마스까?" },
-            { "speaker": "B: 점원", "korean": "죄송합니다, 이게 가장 큰 사이즈입니다.", "japanese": "すみません、こちらが一番大きいサイズです。", "pronunciation": "스미마셍, 코치라가 이치방 오-키-사이즈데스." }
-          ]
-        }
-      ]
-    },
-    {
-      "main_category_title": "숙소",
-      "sub_situations": [
-        {
-          "title": "전화예약",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "여보세요, 예약하고 싶은데요.", "japanese": "もしもし、予約したいんですが。", "pronunciation": "모시모시, 요야쿠시타인데스가." },
-            { "speaker": "B: 직원", "korean": "네, 몇 분이신가요?", "japanese": "はい、何名様でしょうか？", "pronunciation": "하이, 난메이사마데쇼-까?" },
-            { "speaker": "A: 손님", "korean": "2명입니다.", "japanese": "２名です。", "pronunciation": "니메-데스." },
-            { "speaker": "B: 직원", "korean": "날짜는 언제이신가요?", "japanese": "日程はいつですか？", "pronunciation": "닛테-와 이츠데스까?" }
-          ]
-        },
-        {
-          "title": "체크인",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "체크인 부탁합니다.", "japanese": "チェックインをお願いします。", "pronunciation": "쳬쿠인 오네가이시마스." },
-            { "speaker": "B: 직원", "korean": "네, 예약하신 성함 말씀해주세요.", "japanese": "はい、ご予約のお名前をお願いします。", "pronunciation": "하이, 고요야쿠노 오나마에오 오네가이시마스." },
-            { "speaker": "A: 손님", "korean": "○○입니다.", "japanese": "○○です。", "pronunciation": "마루마루데스." },
-            { "speaker": "B: 직원", "korean": "네, 잠시만 기다려주세요.", "japanese": "はい、お待ちください。", "pronunciation": "하이, 오마치쿠다사이." }
-          ]
-        },
-        {
-          "title": "룸서비스",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "룸서비스를 시키고 싶은데요.", "japanese": "ルームサービスをお願いしたいのですが。", "pronunciation": "루-무사-비스오 오네가이시타이노데스가." },
-            { "speaker": "B: 직원", "korean": "네, 주문은 무엇인가요?", "japanese": "はい、ご注文は何でしょうか？", "pronunciation": "하이, 고추-몬와 난데쇼-까?" },
-            { "speaker": "A: 손님", "korean": "카레라이스 하나 부탁합니다.", "japanese": "カレーライスを一つお願いします。", "pronunciation": "카레-라이스오 히토츠 오네가이시마스." },
-            { "speaker": "B: 직원", "korean": "알겠습니다.", "japanese": "かしこまりました。", "pronunciation": "카시코마리마시타." }
-          ]
-        },
-        {
-          "title": "수건 추가",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "죄송합니다, 수건 하나 더 받을 수 있을까요?", "japanese": "すみません、タオルをもう一ついただけますか？", "pronunciation": "스미마셍, 타오루오 모- 히토츠 이타다케마스까?" },
-            { "speaker": "B: 직원", "korean": "네, 바로 가져다드리겠습니다.", "japanese": "はい、すぐにお持ちします。", "pronunciation": "하이, 스구니 오모치시마스." }
-          ]
-        },
-        {
-          "title": "드라이기 대여",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "드라이기를 빌릴 수 있을까요?", "japanese": "ドライヤーをお借りできますか？", "pronunciation": "도라야-오 오카리데키마스까?" },
-            { "speaker": "B: 직원", "korean": "네, 방으로 가져다드리겠습니다.", "japanese": "はい、お部屋にお届けします。", "pronunciation": "하이, 오헤야니 오토도케시마스." }
-          ]
-        }
-      ]
-    },
-    {
-      "main_category_title": "공항",
-      "sub_situations": [
-        {
-          "title": "표 예매 및 구매",
-          "dialogues": [
-            { "speaker": "A: 여행객", "korean": "오사카행 티켓 있나요?", "japanese": "大阪行きのチケットはありますか？", "pronunciation": "오-사카유키노 치켓토와 아리마스까?" },
-            { "speaker": "B: 직원", "korean": "네, 있습니다.", "japanese": "はい、ございます。", "pronunciation": "하이, 고자이마스." },
-            { "speaker": "A: 여행객", "korean": "성인 2명으로 부탁합니다.", "japanese": "大人２名でお願いします。", "pronunciation": "오토나 니메-데 오네가이시마스." },
-            { "speaker": "B: 직원", "korean": "네, 알겠습니다.", "japanese": "はい、かしこまりました。", "pronunciation": "하이, 카시코마리마시타." }
-          ]
-        },
-        {
-          "title": "짐 부치기 및 체크인",
-          "dialogues": [
-            { "speaker": "A: 여행객", "korean": "체크인 부탁합니다.", "japanese": "チェックインをお願いします。", "pronunciation": "쳬쿠인 오네가이시마스." },
-            { "speaker": "B: 직원", "korean": "항공권과 여권을 보여주시겠어요?", "japanese": "航空券とパスポートを見せていただけますか？", "pronunciation": "코-쿠-켄토 파스포-토- 미세테 이타다케마스까?" },
-            { "speaker": "A: 여행객", "korean": "짐은 이것뿐입니다.", "japanese": "荷物はこれだけです。", "pronunciation": "니모츠와 코레다케데스." },
-            { "speaker": "B: 직원", "korean": "알겠습니다.", "japanese": "かしこまりました。", "pronunciation": "카시코마리마시타." }
-          ]
-        },
-        {
-          "title": "면세점",
-          "dialogues": [
-            { "speaker": "A: 손님", "korean": "이거, 면세 가격은 얼마예요?", "japanese": "これ、免税価格はいくらですか？", "pronunciation": "코레, 멘제-카카쿠와 이쿠라데스까?" },
-            { "speaker": "B: 점원", "korean": "세금 제외하고 5천 엔입니다.", "japanese": "税抜きで５千円です。", "pronunciation": "제이누키데 고센엔데스." },
-            { "speaker": "A: 손님", "korean": "선물용으로 포장할 수 있나요?", "japanese": "プレゼント用に包装できますか？", "pronunciation": "프레젠토요-니 호-소-데키마스까?" },
-            { "speaker": "B: 점원", "korean": "네, 알겠습니다.", "japanese": "はい、承知いたしました。", "pronunciation": "하이, 쇼-치 이타시마시타." }
-          ]
-        },
-        {
-          "title": "비행기 안 (좌석/음료)",
-          "dialogues": [
-            { "speaker": "A: 승객", "korean": "제 자리는 어디예요?", "japanese": "私の席はどこですか？", "pronunciation": "와타시노 세키와 도코데스까?" },
-            { "speaker": "B: 승무원", "korean": "이쪽이 되겠습니다.", "japanese": "こちらになります。", "pronunciation": "코치라니 나리마스." },
-            { "speaker": "A: 승객", "korean": "콜라를 받을 수 있을까요?", "japanese": "コーラをいただけますか？", "pronunciation": "코-라오 이타다케마스까?" },
-            { "speaker": "B: 승무원", "korean": "네, 여기 있습니다.", "japanese": "はい、どうぞ。", "pronunciation": "하이, 도-조." }
-          ]
-        }
-      ]
-    },
+  "app_title": "초보 여행자를 위한 일본어 회화",
+  "data": [
+    {
+      "main_category_title": "길 찾기",
+      "sub_situations": [
+        {
+          "title": "지하철",
+          "dialogues": [
+            {
+              "speaker": "A: 여행객",
+              "korean": "죄송합니다, 도쿄역은 어디예요?",
+              "japanese": "すみません、東京駅はどこですか？",
+              "pronunciation": "스미마셍, 토-쿄-에키와 도코데스까?",
+              "replacements": [
+                {
+                  "target": "도쿄역",
+                  "japanese_target": "東京駅",
+                  "pronunciation_target": "토-쿄-에키",
+                  "alternatives": ["신주쿠역", "시부야역", "우에노역"],
+                  "japanese_alternatives": ["新宿駅", "渋谷駅", "上野駅"],
+                  "pronunciation_alternatives": ["신주쿠에키", "시부야에키", "우에노에키"]
+                }
+              ]
+            },
+            { "speaker": "B: 현지인", "korean": "이 지하철을 타세요.", "japanese": "この地下鉄に乗ってください。", "pronunciation": "코노 치카테츠니 놋테 쿠다사이." },
+            { "speaker": "A: 여행객", "korean": "어느 방면인가요?", "japanese": "どちらの方面ですか？", "pronunciation": "도치라노 호-멘데스까?" },
+            { "speaker": "B: 현지인", "korean": "○○행 전철입니다.", "japanese": "○○行きの電車です。", "pronunciation": "마루마루유키노 덴샤데스." }
+          ]
+        },
+        {
+          "title": "버스",
+          "dialogues": [
+            { "speaker": "A: 여행객", "korean": "이 버스는 시부야에 가나요?", "japanese": "このバスは渋谷に行きますか？", "pronunciation": "코노 바스와 시부야니 이키마스까?" },
+            { "speaker": "B: 현지인", "korean": "네, 갑니다.", "japanese": "はい、行きますよ。", "pronunciation": "하이, 이키마스요." },
+            { "speaker": "A: 여행객", "korean": "어디서 내리나요?", "japanese": "どこで降りますか？", "pronunciation": "도코데 오리마스까?" },
+            { "speaker": "B: 현지인", "korean": "다음 정류장에서 내리세요.", "japanese": "次のバス停で降りてください。", "pronunciation": "츠기노 바스테-데 오리테 쿠다사이." }
+          ]
+        },
+        {
+          "title": "택시",
+          "dialogues": [
+            { "speaker": "A: 여행객", "korean": "죄송합니다, 이 주소까지 부탁합니다.", "japanese": "すみません、この住所までお願いします。", "pronunciation": "스미마셍, 코노 쥬-쇼마데 오네가이시마스." },
+            { "speaker": "B: 택시기사", "korean": "네, 알겠습니다.", "japanese": "はい、かしこまりました。", "pronunciation": "하이, 카시코마리마시타." },
+            { "speaker": "A: 여행객", "korean": "서둘러주세요.", "japanese": "急いでください。", "pronunciation": "이소이데 쿠다사이." },
+            { "speaker": "B: 택시기사", "korean": "네, 알겠습니다.", "japanese": "はい、わかりました。", "pronunciation": "하이, 와카리마시타." }
+          ]
+        },
+        {
+          "title": "걸어서 갈 때",
+          "dialogues": [
+            { "speaker": "A: 여행객", "korean": "죄송합니다, 이 지도의 장소는 어디예요?", "japanese": "すみません、この地図の場所はどこですか？", "pronunciation": "스미마셍, 코노 치즈노 바쇼와 도코데스까?" },
+            { "speaker": "B: 현지인", "korean": "이 길로 곧장 가세요.", "japanese": "この道をまっすぐ行ってください。", "pronunciation": "코노 미치오 맛스구 잇테 쿠다사이." },
+            { "speaker": "A: 여행객", "korean": "얼마나 걸리나요?", "japanese": "どれくらいかかりますか？", "pronunciation": "도레쿠라이 카카리마스까?" },
+            { "speaker": "B: 현지인", "korean": "10분 정도입니다.", "japanese": "１０分ぐらいです。", "pronunciation": "쥽분 구라이데스." }
+          ]
+        }
+      ]
+    },
+    {
+      "main_category_title": "쇼핑",
+      "sub_situations": [
+        {
+          "title": "신발/구두/운동화",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "이 신발, 보여주세요.", "japanese": "この靴、見せてください。", "pronunciation": "코노 쿠츠, 미세테 쿠다사이." },
+            { "speaker": "B: 점원", "korean": "네, 여기 있습니다.", "japanese": "はい、どうぞ。", "pronunciation": "하이, 도-조." },
+            { "speaker": "A: 손님", "korean": "24.5cm 있나요?", "japanese": "２４．５センチありますか？", "pronunciation": "니-욘-고 센치 아리마스까?" },
+            { "speaker": "B: 점원", "korean": "네, 있습니다.", "japanese": "はい、ございます。", "pronunciation": "하이, 고자이마스." },
+            { "speaker": "A: 손님", "korean": "신어봐도 될까요?", "japanese": "試着してもいいですか？", "pronunciation": "시챠쿠시테모 이이데스까?" },
+            { "speaker": "B: 점원", "korean": "네.", "japanese": "どうぞ。", "pronunciation": "도-조." }
+          ]
+        },
+        {
+          "title": "가방",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "죄송합니다, 이 가방 보여주세요.", "japanese": "すみません、このバッグを見せてください。", "pronunciation": "스미마셍, 코노 밧구오 미세테 쿠다사이." },
+            { "speaker": "B: 점원", "korean": "네, 알겠습니다.", "japanese": "はい、かしこまりました。", "pronunciation": "하이, 카시코마리마시타." },
+            { "speaker": "A: 손님", "korean": "이거 다른 색상 있나요?", "japanese": "これの色違いはありますか？", "pronunciation": "코레노 이로치가이와 아리마스까?" },
+            { "speaker": "B: 점원", "korean": "네, 이쪽입니다.", "japanese": "はい、こちらです。", "pronunciation": "하이, 코치라데스." }
+          ]
+        },
+        {
+          "title": "옷(바지/상의/양복)",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "이 옷, 입어봐도 될까요?", "japanese": "この服、試着してもいいですか？", "pronunciation": "코노 후쿠, 시챠쿠시테모 이이데스까?" },
+            { "speaker": "B: 점원", "korean": "네, 탈의실로 가세요.", "japanese": "はい、試着室へどうぞ。", "pronunciation": "하이, 시챠쿠시츠에 도-조." },
+            { "speaker": "A: 손님", "korean": "이 바지, 좀 더 큰 사이즈 있나요?", "japanese": "このズボン、もう少し大きいサイズはありますか？", "pronunciation": "코노 즈본, 모- 스코시 오-키-사이즈와 아리마스까?" },
+            { "speaker": "B: 점원", "korean": "죄송합니다, 이게 가장 큰 사이즈입니다.", "japanese": "すみません、こちらが一番大きいサイズです。", "pronunciation": "스미마셍, 코치라가 이치방 오-키-사이즈데스." }
+          ]
+        }
+      ]
+    },
+    {
+      "main_category_title": "숙소",
+      "sub_situations": [
+        {
+          "title": "전화예약",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "여보세요, 예약하고 싶은데요.", "japanese": "もしもし、予約したいんですが。", "pronunciation": "모시모시, 요야쿠시타인데스가." },
+            { "speaker": "B: 직원", "korean": "네, 몇 분이신가요?", "japanese": "はい、何名様でしょうか？", "pronunciation": "하이, 난메이사마데쇼-까?" },
+            { "speaker": "A: 손님", "korean": "2명입니다.", "japanese": "２名です。", "pronunciation": "니메-데스." },
+            { "speaker": "B: 직원", "korean": "날짜는 언제이신가요?", "japanese": "日程はいつですか？", "pronunciation": "닛테-와 이츠데스까?" }
+          ]
+        },
+        {
+          "title": "체크인",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "체크인 부탁합니다.", "japanese": "チェックインをお願いします。", "pronunciation": "쳬쿠인 오네가이시마스." },
+            { "speaker": "B: 직원", "korean": "네, 예약하신 성함 말씀해주세요.", "japanese": "はい、ご予約のお名前をお願いします。", "pronunciation": "하이, 고요야쿠노 오나마에오 오네가이시마스." },
+            { "speaker": "A: 손님", "korean": "○○입니다.", "japanese": "○○です。", "pronunciation": "마루마루데스." },
+            { "speaker": "B: 직원", "korean": "네, 잠시만 기다려주세요.", "japanese": "はい、お待ちください。", "pronunciation": "하이, 오마치쿠다사이." }
+          ]
+        },
+        {
+          "title": "룸서비스",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "룸서비스를 시키고 싶은데요.", "japanese": "ルームサービスをお願いしたいのですが。", "pronunciation": "루-무사-비스오 오네가이시타이노데스가." },
+            { "speaker": "B: 직원", "korean": "네, 주문은 무엇인가요?", "japanese": "はい、ご注文は何でしょうか？", "pronunciation": "하이, 고추-몬와 난데쇼-까?" },
+            { "speaker": "A: 손님", "korean": "카레라이스 하나 부탁합니다.", "japanese": "カレーライスを一つお願いします。", "pronunciation": "카레-라이스오 히토츠 오네가이시마스." },
+            { "speaker": "B: 직원", "korean": "알겠습니다.", "japanese": "かしこまりました。", "pronunciation": "카시코마리마시타." }
+          ]
+        },
+        {
+          "title": "수건 추가",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "죄송합니다, 수건 하나 더 받을 수 있을까요?", "japanese": "すみません、タオルをもう一ついただけますか？", "pronunciation": "스미마셍, 타오루오 모- 히토츠 이타다케마스까?" },
+            { "speaker": "B: 직원", "korean": "네, 바로 가져다드리겠습니다.", "japanese": "はい、すぐにお持ちします。", "pronunciation": "하이, 스구니 오모치시마스." }
+          ]
+        },
+        {
+          "title": "드라이기 대여",
+          "dialogues": [
+            { "speaker": "A: 손님", "korean": "드라이기를 빌릴 수 있을까요?", "japanese": "ドライヤーをお借りできますか？", "pronunciation": "도라야-오 오카리데키마스까?" },
+            { "speaker": "B: 직원", "korean": "네, 방으로 가져다드리겠습니다.", "japanese": "はい、お部屋にお届けします。", "pronunciation": "하이, 오헤야니 오토도케시마스." }
+          ]
+        }
+      ]
+    },
 	{
-      "main_category_title": "일상생활",
-      "sub_situations": [
-        {
-          "title": "저녁",
-          "dialogues": [
-            {
-              "speaker": "A",
-              "korean": "매일 신문을 읽습니까?",
-              "japanese": "毎日新聞を読みますか？",
-              "pronunciation": "마이니치 신분오 요미마스까?",
-              "replacements": [
-                {
-                  "target": "신문을 읽습니까?",
-                  "alternatives": ["게임을 합니까?", "물을 마십니까?"],
-                  "japanese_alternatives": ["ゲームをしますか？", "水を飲みますか？"],
-                  "pronunciation_alternatives": ["게-무오 시마스까?", "미즈오 노미마스까?"]
-                }
-              ]
-            },
-            {
-              "speaker": "B",
-              "korean": "요즘은 거의 신문을 읽지 않습니다. 최근엔 인터넷으로 뉴스를 봐요",
-              "japanese": "最近はほとんど新聞を読みません。最近はインターネットでニュースを見ます。",
-              "pronunciation": "사이킨와 호톤도 신분오 요미마셍. 사이킨와 인타-넷토데 뉴-스오 미마스.",
-              "replacements": [
-                {
-                  "target": "신문을 읽지",
-                  "alternatives": ["책을 보지", "채팅을 하지"],
-                  "japanese_alternatives": ["本を読み", "チャットをしません"],
-                  "pronunciation_alternatives": ["홍오 요미", "챳토오 시마셍"]
-                }
-              ]
-            },
-            {
-              "speaker": "A",
-              "korean": "그렇군요. 그럼 테레비전 뉴스도 안보나요?",
-              "japanese": "そうですか。では、テレビのニュースは見ませんか？",
-              "pronunciation": "소-데스까. 데와, 테레비노 뉴-스와 미마셍까?"
-            },
-            {
-              "speaker": "B",
-              "korean": "아니요. 가끔 봐요.",
-              "japanese": "いいえ、時々見ます。",
-              "pronunciation": "이-에, 토키도키 미마스."
-            },
-            {
-              "speaker": "A",
-              "korean": "그밖에 인터넷으로 무엇을 하나요?",
-              "japanese": "その他にインターネットで何をしますか？",
-              "pronunciation": "소노 호카니 인타-넷토데 나니오 시마스까?"
-            },
-            {
-              "speaker": "B",
-              "korean": "게임을 하면서 채팅을 합니다.",
-              "japanese": "ゲームをしながらチャットをします。",
-              "pronunciation": "게-무오 시나가라 챳토오 시마스.",
-              "replacements": [
-                {
-                  "target": "게임을 하면서 채팅을 합니다.",
-                  "alternatives": ["팝콘을 먹으면서 영화를 봅니다."],
-                  "japanese_alternatives": ["ポップコーンを食べながら映画を見ます。"],
-                  "pronunciation_alternatives": ["폿푸코-응오 타베나가라 에이가오 미마스."]
-                }
-              ]
-            },
-            {
-              "speaker": "A",
-              "korean": "매일 저녁 무엇을 합니까?",
-              "japanese": "毎日、夜に何をしますか？",
-              "pronunciation": "마이니치, 요루니 나니오 시마스까?"
-            },
-            {
-              "speaker": "B",
-              "korean": "휴대폰을 보면서 걷습니다.",
-              "japanese": "携帯電話を見ながら歩きます。",
-              "pronunciation": "케이타이뎅와오 미나가라 아루키마스.",
-              "replacements": [
-                {
-                  "target": "휴대폰을 보면서 걷습니다.",
-                  "alternatives": ["팝콘을 먹으면서 영화를 봅니다.", "노래를 부르면서 샤워를 합니다."],
-                  "japanese_alternatives": ["ポップコーンを食べながら映画を見ます。", "歌を歌いながらシャワーを浴びます。"],
-                  "pronunciation_alternatives": ["폿푸코-응오 타베나가라 에이가오 미마스.", "우타오 우타이나가라 샤와-오 아비마스."]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "title": "아침",
-          "dialogues": [
-            {
-              "speaker": "A",
-              "korean": "오늘 아침 몇 시에 일어났어요?",
-              "japanese": "今朝、何時に起きましたか？",
-              "pronunciation": "케사, 난지니 오키마시타까?",
-              "replacements": [
-                {
-                  "target": "오늘 아침 몇 시에 일어났어요?",
-                  "alternatives": ["어제 카레를 만들었나요?", "지난주에 친구를 만났나요?", "지난달에 컴퓨터를 샀나요?", "어제 영화를 봤나요?"],
-                  "japanese_alternatives": ["昨日カレーを作りましたか？", "先週友達に会いましたか？", "先月パソコンを買いましたか？", "昨日映画を見ましたか？"],
-                  "pronunciation_alternatives": ["키노- 카레-오 츠쿠리마시타까?", "센슈- 토모다치니 아이마시타까?", "센게츠 파소콘오 카이마시타까?", "키노- 에이가오 미마시타까?"]
-                }
-              ]
-            },
-            {
-              "speaker": "B",
-              "korean": "8시에 일어났어요.",
-              "japanese": "8時に起きました。",
-              "pronunciation": "하치지니 오키마시타."
-            },
-            {
-              "speaker": "A",
-              "korean": "어제 늦게 잤나요?",
-              "japanese": "昨日、遅く寝ましたか？",
-              "pronunciation": "키노-, 오소쿠 네마시타까?"
-            },
-            {
-              "speaker": "B",
-              "korean": "네 실은 밤늦게까지 리포트를 썼어요.",
-              "japanese": "はい、実は夜遅くまでレポートを書きました。",
-              "pronunciation": "하이, 지츠와 요루 오소쿠마데 레포-토오 카키마시타."
-            },
-            {
-              "speaker": "A",
-              "korean": "그렇군요. 좀 쉴까요?",
-              "japanese": "そうですか。少し休みましょうか？",
-              "pronunciation": "소-데스까. 스코시 야스미마쇼-까?",
-              "replacements": [
-                {
-                  "target": "좀 쉴까요?",
-                  "alternatives": ["이제 슬슬 돌아갈까요?", "이제 슬슬 시작할까요?", "한잔 먹을까요?", "조금 이야기할까요?"],
-                  "japanese_alternatives": ["そろそろ帰りましょうか？", "そろそろ始めましょうか？", "一杯飲みましょうか？", "少し話しましょうか？"],
-                  "pronunciation_alternatives": ["소로소로 카에리마쇼-까?", "소로소로 하지메마쇼-까?", "잇빠이 노미마쇼-까?", "스코시 하나시마쇼-까?"]
-                }
-              ]
-            },
-            {
-              "speaker": "B",
-              "korean": "네 그렇게 하죠. 커피라도 안 마실래요?",
-              "japanese": "はい、そうしましょう。コーヒーでも飲みませんか？",
-              "pronunciation": "하이, 소-시마쇼-. 코-히-데모 노미마셍까?",
-              "replacements": [
-                {
-                  "target": "커피라도 안 마실래요?",
-                  "alternatives": ["공원에 갈까요?", "점심밥을 먹을까요?", "전철을 탈까요?", "사진을 찍을까요?"],
-                  "japanese_alternatives": ["公園に行きませんか？", "お昼ご飯を食べませんか？", "電車に乗りませんか？", "写真を撮りませんか？"],
-                  "pronunciation_alternatives": ["코-엔니 이키마셍까?", "오히루고항오 타베마셍까?", "덴샤니 노리마셍까?", "샤신오 토리마셍까?"]
-                }
-              ]
-            },
-            {
-              "speaker": "A",
-              "korean": "좋아요. 난 아이스커피로 할래요. 오늘 아침은 커피를 안 마셨어요.",
-              "japanese": "いいですね。私はアイスコーヒーにします。今朝はコーヒーを飲みませんでした。",
-              "pronunciation": "이-데스네. 와타시와 아이스 코-히-니 시마스. 케사와 코-히-오 노미마센데시타.",
-              "replacements": [
-                {
-                  "target": "커피를 안 마셨어요.",
-                  "alternatives": ["테레비전을 보지 않았어요.", "샤워를 하지 않았어요.", "운동을 하지 않았어요."],
-                  "japanese_alternatives": ["テレビを見ませんでした。", "シャワーを浴びませんでした。", "運動しませんでした。"],
-                  "pronunciation_alternatives": ["테레비오 미마센데시타.", "샤와-오 아비마센데시타.", "운도-시마센데시타."]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
+      "main_category_title": "일상생활",
+      "sub_situations": [
+        {
+          "title": "저녁",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "korean": "매일 신문을 읽습니까?",
+              "japanese": "毎日新聞を読みますか？",
+              "pronunciation": "마이니치 신분오 요미마스까?",
+              "replacements": [
+                {
+                  "target": "신문을 읽습니까?",
+                  "japanese_target": "新聞を読みますか？",
+                  "pronunciation_target": "신분오 요미마스까?",
+                  "alternatives": ["게임을 합니까?", "물을 마십니까?"],
+                  "japanese_alternatives": ["ゲームをしますか？", "水を飲みますか？"],
+                  "pronunciation_alternatives": ["게-무오 시마스까?", "미즈오 노미마스까?"]
+                }
+              ]
+            },
+            {
+              "speaker": "B",
+              "korean": "요즘은 거의 신문을 읽지 않습니다. 최근엔 인터넷으로 뉴스를 봐요",
+              "japanese": "最近はほとんど新聞を読みません。最近はインターネットでニュースを見ます。",
+              "pronunciation": "사이킨와 호톤도 신분오 요미마셍. 사이킨와 인타-넷토데 뉴-스오 미마스.",
+              "replacements": [
+                {
+                  "target": "신문을 읽지",
+                  "japanese_target": "新聞を読み",
+                  "pronunciation_target": "신분오 요미",
+                  "alternatives": ["책을 보지", "채팅을 하지"],
+                  "japanese_alternatives": ["本を読み", "チャットをしません"],
+                  "pronunciation_alternatives": ["홍오 요미", "챳토오 시마셍"]
+                }
+              ]
+            },
+            {
+              "speaker": "A",
+              "korean": "그렇군요. 그럼 테레비전 뉴스도 안보나요?",
+              "japanese": "そうですか。では、テレビのニュースは見ませんか？",
+              "pronunciation": "소-데스까. 데와, 테레비노 뉴-스와 미마셍까?"
+            },
+            {
+              "speaker": "B",
+              "korean": "아니요. 가끔 봐요.",
+              "japanese": "いいえ、時々見ます。",
+              "pronunciation": "이-에, 토키도키 미마스."
+            },
+            {
+              "speaker": "A",
+              "korean": "그밖에 인터넷으로 무엇을 하나요?",
+              "japanese": "その他にインターネットで何をしますか？",
+              "pronunciation": "소노 호카니 인타-넷토데 나니오 시마스까?"
+            },
+            {
+              "speaker": "B",
+              "korean": "게임을 하면서 채팅을 합니다.",
+              "japanese": "ゲームをしながらチャットをします。",
+              "pronunciation": "게-무오 시나가라 챳토오 시마스.",
+              "replacements": [
+                {
+                  "target": "게임을 하면서 채팅을 합니다.",
+                  "japanese_target": "ゲームをしながらチャットをします。",
+                  "pronunciation_target": "게-무오 시나가라 챳토오 시마스.",
+                  "alternatives": ["팝콘을 먹으면서 영화를 봅니다."],
+                  "japanese_alternatives": ["ポップコーンを食べながら映画を見ます。"],
+                  "pronunciation_alternatives": ["폿푸코-응오 타베나가라 에이가오 미마스."]
+                }
+              ]
+            },
+            {
+              "speaker": "A",
+              "korean": "매일 저녁 무엇을 합니까?",
+              "japanese": "毎日、夜に何をしますか？",
+              "pronunciation": "마이니치, 요루니 나니오 시마스까?"
+            },
+            {
+              "speaker": "B",
+              "korean": "휴대폰을 보면서 걷습니다.",
+              "japanese": "携帯電話を見ながら歩きます。",
+              "pronunciation": "케이타이뎅와오 미나가라 아루키마스.",
+              "replacements": [
+                {
+                  "target": "휴대폰을 보면서 걷습니다.",
+                  "japanese_target": "携帯電話を見ながら歩きます。",
+                  "pronunciation_target": "케이타이뎅와오 미나가라 아루키마스.",
+                  "alternatives": ["팝콘을 먹으면서 영화를 봅니다.", "노래를 부르면서 샤워를 합니다."],
+                  "japanese_alternatives": ["ポップコーンを食べながら映画を見ます。", "歌を歌いながらシャワーを浴びます。"],
+                  "pronunciation_alternatives": ["폿푸코-응오 타베나가라 에이가오 미마스.", "우타오 우타이나가라 샤와-오 아비마스."]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "아침",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "korean": "오늘 아침 몇 시에 일어났어요?",
+              "japanese": "今朝、何時に起きましたか？",
+              "pronunciation": "케사, 난지니 오키마시타까?",
+              "replacements": [
+                {
+                  "target": "오늘 아침 몇 시에 일어났어요?",
+                  "japanese_target": "今朝、何時に起きましたか？",
+                  "pronunciation_target": "케사, 난지니 오키마시타까?",
+                  "alternatives": ["어제 카레를 만들었나요?", "지난주에 친구를 만났나요?", "지난달에 컴퓨터를 샀나요?", "어제 영화를 봤나요?"],
+                  "japanese_alternatives": ["昨日カレーを作りましたか？", "先週友達に会いましたか？", "先月パソコンを買いましたか？", "昨日映画を見ましたか？"],
+                  "pronunciation_alternatives": ["키노- 카레-오 츠쿠리마시타까?", "센슈- 토모다치니 아이마시타까?", "센게츠 파소콘오 카이마시타까?", "키노- 에이가오 미마시타까?"]
+                }
+              ]
+            },
+            {
+              "speaker": "B",
+              "korean": "8시에 일어났어요.",
+              "japanese": "8時に起きました。",
+              "pronunciation": "하치지니 오키마시타."
+            },
+            {
+              "speaker": "A",
+              "korean": "어제 늦게 잤나요?",
+              "japanese": "昨日、遅く寝ましたか？",
+              "pronunciation": "키노-, 오소쿠 네마시타까?"
+            },
+            {
+              "speaker": "B",
+              "korean": "네 실은 밤늦게까지 리포트를 썼어요.",
+              "japanese": "はい、実は夜遅くまでレポートを書きました。",
+              "pronunciation": "하이, 지츠와 요루 오소쿠마데 레포-토오 카키마시타."
+            },
+            {
+              "speaker": "A",
+              "korean": "그렇군요. 좀 쉴까요?",
+              "japanese": "そうですか。少し休みましょうか？",
+              "pronunciation": "소-데스까. 스코시 야스미마쇼-까?",
+              "replacements": [
+                {
+                  "target": "좀 쉴까요?",
+                  "japanese_target": "少し休みましょうか？",
+                  "pronunciation_target": "스코시 야스미마쇼-까?",
+                  "alternatives": ["이제 슬슬 돌아갈까요?", "이제 슬슬 시작할까요?", "한잔 먹을까요?", "조금 이야기할까요?"],
+                  "japanese_alternatives": ["そろそろ帰りましょうか？", "そろそろ始めましょうか？", "一杯飲みましょうか？", "少し話しましょうか？"],
+                  "pronunciation_alternatives": ["소로소로 카에리마쇼-까?", "소로소로 하지메마쇼-까?", "잇빠이 노미마쇼-까?", "스코시 하나시마쇼-까?"]
+                }
+              ]
+            },
+            {
+              "speaker": "B",
+              "korean": "네 그렇게 하죠. 커피라도 안 마실래요?",
+              "japanese": "はい、そうしましょう。コーヒーでも飲みませんか？",
+              "pronunciation": "하이, 소-시마쇼-. 코-히-데모 노미마셍까?",
+              "replacements": [
+                {
+                  "target": "커피라도 안 마실래요?",
+                  "japanese_target": "コーヒーでも飲みませんか？",
+                  "pronunciation_target": "코-히-데모 노미마셍까?",
+                  "alternatives": ["공원에 갈까요?", "점심밥을 먹을까요?", "전철을 탈까요?", "사진을 찍을까요?"],
+                  "japanese_alternatives": ["公園に行きませんか？", "お昼ご飯を食べませんか？", "電車に乗りませんか？", "写真を撮りませんか？"],
+                  "pronunciation_alternatives": ["코-엔니 이키마셍까?", "오히루고항오 타베마셍까?", "덴샤니 노리마셍까?", "샤신오 토리마셍까?"]
+                }
+              ]
+            },
+            {
+              "speaker": "A",
+              "korean": "좋아요. 난 아이스커피로 할래요. 오늘 아침은 커피를 안 마셨어요.",
+              "japanese": "いいですね。私はアイスコーヒーにします。今朝はコーヒーを飲みませんでした。",
+              "pronunciation": "이-데스네. 와타시와 아이스 코-히-니 시마스. 케사와 코-히-오 노미마센데시타.",
+              "replacements": [
+                {
+                  "target": "커피를 안 마셨어요.",
+                  "japanese_target": "コーヒーを飲みませんでした。",
+                  "pronunciation_target": "코-히-오 노미마센데시타.",
+                  "alternatives": ["테레비전을 보지 않았어요.", "샤워를 하지 않았어요.", "운동을 하지 않았어요."],
+                  "japanese_alternatives": ["テレビを見ませんでした。", "シャワーを浴びませんでした。", "運動しませんでした。"],
+                  "pronunciation_alternatives": ["테레비오 미마센데시타.", "샤와-오 아비마센데시타.", "운도-시마센데시타."]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
