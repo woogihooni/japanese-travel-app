@@ -53,14 +53,14 @@ function displayMainCategories() {
 }
 
 // 서브 상황 목록을 보여주는 함수
-function displaySubSituations(mainTitle, subSituations) {
+function displaySubSituations(mainTitleText, subSituations) {
     mainTitle.style.display = 'none';
     backButton.style.display = 'block';
     mainCategoryList.style.display = 'none';
     subSituationList.style.display = 'flex';
     dialogueList.style.display = 'none';
 
-    subSituationTitle.textContent = mainTitle;
+    subSituationTitle.textContent = mainTitleText;
     subSituationList.innerHTML = '';
     subSituationList.appendChild(subSituationTitle);
     
@@ -69,21 +69,21 @@ function displaySubSituations(mainTitle, subSituations) {
         button.className = 'sub-situation-button';
         button.textContent = sub.title;
         button.addEventListener('click', () => {
-            displayDialogue(mainTitle, sub.title, sub.dialogues);
+            displayDialogue(mainTitleText, sub.title, sub.dialogues);
         });
         subSituationList.appendChild(button);
     });
 }
 
 // 대화 문장을 보여주는 함수 (새로운 로직)
-function displayDialogue(mainTitle, subTitle, dialogues) {
+function displayDialogue(mainTitleText, subTitle, dialogues) {
     mainTitle.style.display = 'none';
     backButton.style.display = 'block';
     mainCategoryList.style.display = 'none';
     subSituationList.style.display = 'none';
     dialogueList.style.display = 'block';
 
-    dialogueTitle.textContent = `${mainTitle} - ${subTitle}`;
+    dialogueTitle.textContent = `${mainTitleText} - ${subTitle}`;
     dialogueList.innerHTML = '';
     dialogueList.appendChild(dialogueTitle);
 
@@ -101,18 +101,18 @@ function displayDialogue(mainTitle, subTitle, dialogues) {
 
         // 일본어와 발음은 숨겨진 상태로 추가
         const hiddenContent = document.createElement('div');
+        hiddenContent.classList.add('hidden'); // hidden 클래스 사용
         hiddenContent.innerHTML = `
             <p class="japanese">${line.japanese}</p>
             <p class="pronunciation">${line.pronunciation}</p>
         `;
-        hiddenContent.classList.add('hidden-text');
 
         dialogueBox.appendChild(koreanContent);
         dialogueBox.appendChild(hiddenContent);
 
         // 클릭하면 일본어/발음 보여주기/숨기기 토글
         dialogueBox.addEventListener('click', () => {
-            dialogueBox.classList.toggle('active');
+            hiddenContent.classList.toggle('hidden');
         });
         dialogueList.appendChild(dialogueBox);
     });
