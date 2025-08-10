@@ -1,0 +1,109 @@
+/* 공통 스타일 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* 카테고리 버튼 스타일 */
+#category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.category-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.category-button:hover {
+    background-color: #e8f0fe;
+}
+
+/* 회화 문장 카드 스타일 */
+#phrase-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.phrase-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.phrase-card:active {
+    transform: scale(0.98);
+}
+
+.phrase-card .korean {
+    font-size: 1rem;
+    color: #777;
+    margin: 0 0 5px 0;
+}
+
+.phrase-card .japanese {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0 0 5px 0;
+}
+
+.phrase-card .pronunciation {
+    font-size: 0.9rem;
+    color: #999;
+    font-style: italic;
+    margin: 0;
+}
+
+.back-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.back-button:hover {
+    background-color: #2980b9;
+}

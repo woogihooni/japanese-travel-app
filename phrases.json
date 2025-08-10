@@ -1,0 +1,129 @@
+{
+  "app_title": "초보 여행자를 위한 일본어 회화",
+  "data": [
+    {
+      "category_id": 1,
+      "category_title": "식당에서",
+      "phrases": [
+        {
+          "korean": "메뉴판 주세요.",
+          "japanese": "メニューをください。",
+          "pronunciation": "메뉴-오 쿠다사이."
+        },
+        {
+          "korean": "이거 주세요.",
+          "japanese": "これをください。",
+          "pronunciation": "코레오 쿠다사이."
+        },
+        {
+          "korean": "이거랑 이거 주세요.",
+          "japanese": "これとこれをください。",
+          "pronunciation": "코레토 코레오 쿠다사이."
+        },
+        {
+          "korean": "물 좀 주시겠어요?",
+          "japanese": "お水、くださいませんか？",
+          "pronunciation": "오미즈, 쿠다사이마셍까?"
+        },
+        {
+          "korean": "계산해주세요.",
+          "japanese": "お会計、お願いします。",
+          "pronunciation": "오카이케이, 오네가이시마스."
+        }
+      ]
+    },
+    {
+      "category_id": 2,
+      "category_title": "길 찾기",
+      "phrases": [
+        {
+          "korean": "~역은 어디예요?",
+          "japanese": "〜駅はどこですか？",
+          "pronunciation": "~~에끼와 도코데스까?"
+        },
+        {
+          "korean": "이 버스는 ~에 가나요?",
+          "japanese": "このバスは〜に行きますか？",
+          "pronunciation": "코노 바스와 ~~에 이키마스까?"
+        },
+        {
+          "korean": "여기서 내려주세요.",
+          "japanese": "ここで降ろしてください。",
+          "pronunciation": "코코데 오로시테 쿠다사이."
+        },
+        {
+          "korean": "직진해주세요.",
+          "japanese": "まっすぐ行ってください。",
+          "pronunciation": "맛스구 잇테 쿠다사이."
+        },
+        {
+          "korean": "길을 잃었어요. 도와주세요.",
+          "japanese": "道に迷った。助けてください。",
+          "pronunciation": "미치니 마욧타. 타스케테 쿠다사이."
+        }
+      ]
+    },
+    {
+      "category_id": 3,
+      "category_title": "쇼핑할 때",
+      "phrases": [
+        {
+          "korean": "이거 얼마예요?",
+          "japanese": "これはいくらですか？",
+          "pronunciation": "코레와 이쿠라데스까?"
+        },
+        {
+          "korean": "이거 보여주세요.",
+          "japanese": "これを見せてください。",
+          "pronunciation": "코레오 미세테 쿠다사이."
+        },
+        {
+          "korean": "다른 색상 있나요?",
+          "japanese": "ほかの色はありますか？",
+          "pronunciation": "호카노 이로와 아리마스까?"
+        },
+        {
+          "korean": "이거 입어봐도 될까요?",
+          "japanese": "これを着てもいいですか？",
+          "pronunciation": "코레오 킷테모 이이데스까?"
+        },
+        {
+          "korean": "이거 하나 주세요.",
+          "japanese": "これを一つください。",
+          "pronunciation": "코레오 히토츠 쿠다사이."
+        }
+      ]
+    },
+    {
+      "category_id": 4,
+      "category_title": "숙소에서",
+      "phrases": [
+        {
+          "korean": "예약했습니다. ~입니다.",
+          "japanese": "予約しました。〜です。",
+          "pronunciation": "요야쿠시마시타. ~~데스."
+        },
+        {
+          "korean": "체크인/체크아웃 할게요.",
+          "japanese": "チェックイン/チェックアウトお願いします。",
+          "pronunciation": "체크인/체크아우토 오네가이시마스."
+        },
+        {
+          "korean": "방 열쇠 주세요.",
+          "japanese": "部屋の鍵をください。",
+          "pronunciation": "헤야노 카기오 쿠다사이."
+        },
+        {
+          "korean": "방에 와이파이 있나요?",
+          "japanese": "部屋にWi-Fiはありますか？",
+          "pronunciation": "헤야니 와이파이와 아리마스까?"
+        },
+        {
+          "korean": "방이 너무 춥습니다/덥습니다.",
+          "japanese": "部屋が寒いです/暑いです。",
+          "pronunciation": "헤야가 사무이데스/아츠이데스."
+        }
+      ]
+    }
+  ]
+}
