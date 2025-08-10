@@ -1,0 +1,23 @@
+# Miscellaneous
+*.log
+*.lock
+.DS_Store
+.idea
+.flutter-plugins-dependencies
+.flutter-plugins
+.packages
+
+# Local project folders
+/build/
+/.dart_tool/
+/.ios/
+/.android/
+
+# Android specific
+/android/local.properties
+/android/app/build/
+/android/.gradle/
+
+# iOS specific
+/ios/Flutter/Generated.xcconfig
+/ios/.symlinks/
