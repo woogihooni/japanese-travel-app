@@ -75,7 +75,7 @@ function displaySubSituations(mainTitleText, subSituations) {
     });
 }
 
-// 대화 문장을 보여주는 함수 (새로운 로직)
+// 대화 문장을 보여주는 함수 (수정된 로직)
 function displayDialogue(mainTitleText, subTitle, dialogues) {
     mainTitle.style.display = 'none';
     backButton.style.display = 'block';
@@ -105,7 +105,6 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
             <p class="japanese">${line.japanese}</p>
             <p class="pronunciation">${line.pronunciation}</p>
         `;
-        // hidden 클래스를 토글하기 위해 hiddenContent 대신 dialogueBox에 active 클래스를 추가
         
         dialogueBox.appendChild(koreanContent);
         dialogueBox.appendChild(hiddenContent);
