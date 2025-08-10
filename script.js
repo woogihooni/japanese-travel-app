@@ -77,7 +77,7 @@ function displaySubSituations(mainTitleText, subSituations) {
     });
 }
 
-// 대화 문장을 보여주는 함수
+// 대화 문장을 보여주는 함수 (수정된 로직)
 function displayDialogue(mainTitleText, subTitle, dialogues) {
     mainTitle.style.display = 'none';
     backButton.style.display = 'block';
@@ -148,10 +148,10 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
                         pronunciationEl.textContent = dialogueBox.dataset.originalPronunciation;
                         currentButtons.forEach(btn => btn.classList.remove('selected'));
                     } else {
-                        // 교체 로직
+                        // 교체 로직 (새로운 japanese_target과 pronunciation_target 사용)
                         const newKorean = dialogueBox.dataset.originalKorean.replace(firstReplacement.target, alt);
-                        const newJapanese = dialogueBox.dataset.originalJapanese.replace(firstReplacement.japanese_alternatives[0], firstReplacement.japanese_alternatives[altIndex]);
-                        const newPronunciation = dialogueBox.dataset.originalPronunciation.replace(firstReplacement.pronunciation_alternatives[0], firstReplacement.pronunciation_alternatives[altIndex]);
+                        const newJapanese = dialogueBox.dataset.originalJapanese.replace(firstReplacement.japanese_target, firstReplacement.japanese_alternatives[altIndex]);
+                        const newPronunciation = dialogueBox.dataset.originalPronunciation.replace(firstReplacement.pronunciation_target, firstReplacement.pronunciation_alternatives[altIndex]);
                         
                         koreanEl.textContent = newKorean;
                         japaneseEl.textContent = newJapanese;
