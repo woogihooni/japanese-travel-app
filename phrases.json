@@ -546,6 +546,1972 @@
           ]
         }
       ]
+    },
+	{
+      "main_category_title": "일곱 개의 대죄 시즌1",
+      "sub_situations": [
+        {
+          "title": "episod 1",
+          "dialogues": [
+            {
+              "speaker": "A",
+              "korean": "에이, 그럴 일은 없어",
+              "japanese": "えぇ、そんなことないって",
+              "pronunciation": "에-, 손나 코토 나잇테"
+            },
+            {
+              "speaker": "A",
+              "korean": "이 쩌는 녹내는 또 뭐야?",
+              "japanese": "このすげえサビの匂いはなんだ？",
+              "pronunciation": "코노 스게- 사비노 니오이와 난다?"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱개의…!",
+              "japanese": "七つの…！",
+              "pronunciation": "나나츠노…!"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱개의 대죄…!",
+              "japanese": "七つの大罪…！",
+              "pronunciation": "나나츠노 타이자이…!"
+            },
+            {
+              "speaker": "서술",
+              "korean": "나타났다!!",
+              "japanese": "現れた!!",
+              "pronunciation": "아라와레타!!"
+            },
+            {
+              "speaker": "A",
+              "korean": "넌 누구야?",
+              "japanese": "お前は誰だ？",
+              "pronunciation": "오마에와 다레다?"
+            },
+            {
+              "speaker": "A",
+              "korean": "이 아이가 일곱개의 대죄?",
+              "japanese": "この子が七つの大罪？",
+              "pronunciation": "코노 코가 나나츠노 타이자이?"
+            },
+            {
+              "speaker": "B",
+              "korean": "여자",
+              "japanese": "女だ",
+              "pronunciation": "온나다"
+            },
+            {
+              "speaker": "B",
+              "korean": "여자인데…?",
+              "japanese": "女なのに…？",
+              "pronunciation": "온나나노니…?"
+            },
+            {
+              "speaker": "C",
+              "korean": "아니…",
+              "japanese": "違う…",
+              "pronunciation": "치가우…"
+            },
+            {
+              "speaker": "D",
+              "korean": "뭐?!",
+              "japanese": "なんだと?!",
+              "pronunciation": "난다토?!"
+            },
+            {
+              "speaker": "A",
+              "korean": "이 자는 모습",
+              "japanese": "この寝顔",
+              "pronunciation": "코노 네가오"
+            },
+            {
+              "speaker": "A",
+              "korean": "이 바디 라인",
+              "japanese": "このボディライン",
+              "pronunciation": "코노 보디라인"
+            },
+            {
+              "speaker": "A",
+              "korean": "이 향기…",
+              "japanese": "この香り…",
+              "pronunciation": "코노 카오리…"
+            },
+            {
+              "speaker": "A",
+              "korean": "이 탄력…",
+              "japanese": "このハリ…",
+              "pronunciation": "코노 하리…"
+            },
+            {
+              "speaker": "A",
+              "korean": "역시 여자군!",
+              "japanese": "やはり女だ！",
+              "pronunciation": "야하리 온나다!"
+            },
+            {
+              "speaker": "A",
+              "korean": "보면 알잖아!",
+              "japanese": "見ればわかるだろ！",
+              "pronunciation": "미레바 와카루다로!"
+            },
+            {
+              "speaker": "E",
+              "korean": "저, 저기…",
+              "japanese": "あ、あの…",
+              "pronunciation": "아, 아노…"
+            },
+            {
+              "speaker": "A",
+              "korean": "심장 박동에도 문제없네!",
+              "japanese": "心臓の鼓動にも問題ないな！",
+              "pronunciation": "신조-노 코도-니모 몬다이 나이나!"
+            },
+            {
+              "speaker": "E",
+              "korean": "고, 고맙습니다…",
+              "japanese": "あ、ありがとうございます…",
+              "pronunciation": "아, 아리가토-고자이마스…"
+            },
+            {
+              "speaker": "E",
+              "korean": "여기는요…?",
+              "japanese": "ここは…？",
+              "pronunciation": "코코와…?"
+            },
+            {
+              "speaker": "E",
+              "korean": "저기, 저는 어째서…",
+              "japanese": "あの、私はどうして…",
+              "pronunciation": "아노, 와타시와 도-시테…"
+            },
+            {
+              "speaker": "A",
+              "korean": "불쑥 가게에 들어오더니 갑자기 쓰러졌어, 너",
+              "japanese": "急に店に入ってきて、いきなり倒れたんだ、お前",
+              "pronunciation": "큐-니 미세니 하잇테키테, 이키나리 타오레탄다, 오마에"
+            },
+            {
+              "speaker": "E",
+              "korean": "가게요?",
+              "japanese": "店に？",
+              "pronunciation": "미세니?"
+            },
+            {
+              "speaker": "A",
+              "korean": "돼지의 모자집",
+              "japanese": "豚の帽子亭",
+              "pronunciation": "부타노 보-시테-"
+            },
+            {
+              "speaker": "A",
+              "korean": "내 가게야",
+              "japanese": "俺の店だ",
+              "pronunciation": "오레노 미세다"
+            },
+            {
+              "speaker": "E",
+              "korean": "당신이 마스터세요?",
+              "japanese": "あなたがマスターですか？",
+              "pronunciation": "아나타가 마스타-데스까?"
+            },
+            {
+              "speaker": "A",
+              "korean": "이상해?",
+              "japanese": "おかしいか？",
+              "pronunciation": "오카시이카?"
+            },
+            {
+              "speaker": "E",
+              "korean": "아, 아뇨",
+              "japanese": "あ、いえ",
+              "pronunciation": "아, 이에"
+            },
+            {
+              "speaker": "E",
+              "korean": "그게 등 뒤에 있는 검이 보여서요",
+              "japanese": "その、背中にある剣が見えたので",
+              "pronunciation": "소노, 세나카니 아루 츠루기가 미에타노데"
+            },
+            {
+              "speaker": "A",
+              "korean": "아, 이거 말이야?",
+              "japanese": "ああ、これのことか？",
+              "pronunciation": "아-, 코레노 코토까?"
+            },
+            {
+              "speaker": "A",
+              "korean": "무서웠어?",
+              "japanese": "怖かったか？",
+              "pronunciation": "코와캇타카?"
+            },
+            {
+              "speaker": "A",
+              "korean": "손잡이뿐이지만 가지고 다니면 그럴싸하게 보이지?",
+              "japanese": "柄だけだが、持ち歩くとそれっぽく見えるだろ？",
+              "pronunciation": "츠카다케다가, 모치아루쿠토 소렛포쿠 미에루다로?"
+            },
+            {
+              "speaker": "A",
+              "korean": "이게 바로 무전취식을 막는 방법이 된다는 말씀!",
+              "japanese": "これが、無銭飲食を防ぐ方法になるってわけだ！",
+              "pronunciation": "코레가, 무센인쇼쿠오 후세구 호-호-니 나룻테 와케다!"
+            },
+            {
+              "speaker": "호크",
+              "korean": "네 놈이 만든 밥을 먹게 만든 끝에 돈까지 내는 손님들이 더 불쌍하다",
+              "japanese": "お前が作った飯を食わされた挙句、金まで払う客の方がかわいそうだぜ",
+              "pronunciation": "오마에가 츠쿳타 메시오 쿠와사레타 아게쿠, 카네마데 하라우 캬쿠노 호-가 카와이소-다제"
+            },
+            {
+              "speaker": "E",
+              "korean": "말하는 돼지다~",
+              "japanese": "喋る豚だ～",
+              "pronunciation": "샤베루 부타다~"
+            },
+            {
+              "speaker": "호크",
+              "korean": "호크다",
+              "japanese": "ホークだ",
+              "pronunciation": "호-쿠다"
+            },
+            {
+              "speaker": "호크",
+              "korean": "잘 부탁한다",
+              "japanese": "よろしくな",
+              "pronunciation": "요로시쿠나"
+            },
+            {
+              "speaker": "E",
+              "korean": "얼마 전에 아버지께 생일 선물로 부탁했거든요",
+              "japanese": "この間、父に誕生日プレゼントでお願いしたんです",
+              "pronunciation": "코노 아이다, 치치니 탄죠-비푸레젠토데 오네가이시탄데스"
+            },
+            {
+              "speaker": "A",
+              "korean": "그래서 그 돼지는 받았어?",
+              "japanese": "それで、その豚はもらったのか？",
+              "pronunciation": "소레데, 소노 부타와 모랏타노카?"
+            },
+            {
+              "speaker": "E",
+              "korean": "아뇨…",
+              "japanese": "いえ…",
+              "pronunciation": "이에…"
+            },
+            {
+              "speaker": "A",
+              "korean": "맞다",
+              "japanese": "そうだ",
+              "pronunciation": "소-다"
+            },
+            {
+              "speaker": "A",
+              "korean": "배 안 고파?",
+              "japanese": "腹減ってないか？",
+              "pronunciation": "하라 헷테 나이카?"
+            },
+            {
+              "speaker": "A",
+              "korean": "괜찮다면 먹게 해주지",
+              "japanese": "よかったら食わせてやるぞ",
+              "pronunciation": "요캇타라 쿠와세테 야루조"
+            },
+            {
+              "speaker": "E",
+              "korean": "포크를요?",
+              "japanese": "フォークを？",
+              "pronunciation": "호-쿠오?"
+            },
+            {
+              "speaker": "A",
+              "korean": "포크가 아냐, 호크!",
+              "japanese": "フォークじゃない、ホークだ！",
+              "pronunciation": "호-쿠쟈 나이, 호-쿠다!"
+            },
+            {
+              "speaker": "A",
+              "korean": "다 됐다",
+              "japanese": "できたぞ",
+              "pronunciation": "데키타조"
+            },
+            {
+              "speaker": "E",
+              "korean": "간호도 해주시고 게다가 식사까지…",
+              "japanese": "看病もしてくれて、おまけに食事まで…",
+              "pronunciation": "칸뵤-모 시테쿠레테, 오마케니 쇼쿠지마데…"
+            },
+            {
+              "speaker": "E",
+              "korean": "뭐라 감사를 드려야할지…",
+              "japanese": "何とお礼を言ったらいいか…",
+              "pronunciation": "난토 오레이오 잇타라 이이카…"
+            },
+            {
+              "speaker": "A",
+              "korean": "고맙다고 하기 전에 우선 먹어봐",
+              "japanese": "礼を言う前に、まず食ってみろ",
+              "pronunciation": "레이오 이우 마에니, 마즈 쿳테 미로"
+            },
+            {
+              "speaker": "E",
+              "korean": "네, 잘 먹겠습니다",
+              "japanese": "はい、いただきます",
+              "pronunciation": "하이, 이타다키마스"
+            },
+            {
+              "speaker": "A",
+              "korean": "어때?",
+              "japanese": "どうだ？",
+              "pronunciation": "도-다?"
+            },
+            {
+              "speaker": "A",
+              "korean": "맛없지?",
+              "japanese": "まずいだろ？",
+              "pronunciation": "마즈이다로?"
+            },
+            {
+              "speaker": "E",
+              "korean": "네에…",
+              "japanese": "はい…",
+              "pronunciation": "하이…"
+            },
+            {
+              "speaker": "A, E",
+              "korean": "역시나!",
+              "japanese": "やっぱりな！",
+              "pronunciation": "얏빠리나!"
+            },
+            {
+              "speaker": "E",
+              "korean": "하지만 엄청…!",
+              "japanese": "でも、すごく…！",
+              "pronunciation": "데모, 스고쿠…!"
+            },
+            {
+              "speaker": "E",
+              "korean": "하지만 엄청 맛있어요…!",
+              "japanese": "でも、すごく美味しいです…！",
+              "pronunciation": "데모, 스고쿠 오이시-데스…!"
+            },
+            {
+              "speaker": "A",
+              "korean": "야, 너는 그런 갑옷을 입고 뭘 하고 있었던 거야?",
+              "japanese": "なあ、お前はそんな鎧を着て何をしていたんだ？",
+              "pronunciation": "나-, 오마에와 손나 요로이오 키테 나니오 시테 이탄다?"
+            },
+            {
+              "speaker": "E",
+              "korean": "일곱개의 대죄를 찾고 있어요",
+              "japanese": "七つの大罪を探しています",
+              "pronunciation": "나나츠노 타이자이오 사가시테 이마스"
+            },
+            {
+              "speaker": "A",
+              "korean": "왜 또…",
+              "japanese": "なんでまた…",
+              "pronunciation": "난데 마타…"
+            },
+            {
+              "speaker": "A",
+              "korean": "살아있는지 죽었는지도 모르는 녀석들인데?",
+              "japanese": "生きてるのか死んでるのかもわからない奴らなのに？",
+              "pronunciation": "이키테루노카 신데루노카모 와카라나이 야츠라나노니?"
+            },
+            {
+              "speaker": "A",
+              "korean": "대역죄인이라고?",
+              "japanese": "大逆罪人だぜ？",
+              "pronunciation": "다이갸쿠자인인 다제?"
+            },
+            {
+              "speaker": "F",
+              "korean": "열어!",
+              "japanese": "開けろ！",
+              "pronunciation": "아케로!"
+            },
+            {
+              "speaker": "F",
+              "korean": "마을 사람들의 신고가 있었다!",
+              "japanese": "村人からの通報があった！",
+              "pronunciation": "무라비토카라노 츠-호-가 앗타!"
+            },
+            {
+              "speaker": "F",
+              "korean": "우리들은 기슭에 주류하는 성기사님 아래에 있는 산고양이 수염 기사단!",
+              "japanese": "俺たちは、麓に駐留する聖騎士様の配下、ヤマネコひげ騎士団！",
+              "pronunciation": "오레타치와, 후모토니 츄-류-스루 세이키시사마노 하이카, 야마네코히게 키시단!"
+            },
+            {
+              "speaker": "F",
+              "korean": "일곱개의 대죄로 보이는 녹슨 기사를 잡으러 왔다!",
+              "japanese": "七つの大罪と思われる錆びた騎士を捕まえに来た！",
+              "pronunciation": "나나츠노 타이자이토 오모와레루 사비타 키시오 츠카마에니 키타!"
+            },
+            {
+              "speaker": "F",
+              "korean": "얌전하게 나와라!",
+              "japanese": "おとなしく出てこい！",
+              "pronunciation": "오토나시쿠 데테코이!"
+            },
+            {
+              "speaker": "A",
+              "korean": "뭔가 시끄러운 녀석이 왔네",
+              "japanese": "なんか騒がしいのが来たな",
+              "pronunciation": "난카 사와가시이노가 키타나"
+            },
+            {
+              "speaker": "E",
+              "korean": "성기사…!",
+              "japanese": "聖騎士…！",
+              "pronunciation": "세이키시…!"
+            },
+            {
+              "speaker": "G",
+              "korean": "안 나오네요",
+              "japanese": "出てこないですね",
+              "pronunciation": "데테코나이데스네"
+            },
+            {
+              "speaker": "G",
+              "korean": "그건 그렇고 이런 언덕 위에 술집이 언제 생긴 거지?",
+              "japanese": "それにしても、こんな丘の上に酒場がいつできたんだ？",
+              "pronunciation": "소레니시테모, 콘나 오카노 우에니 사카바가 이츠 데키탄다?"
+            },
+            {
+              "speaker": "H",
+              "korean": "그러고 보니 3일 전에 지나갔을 때엔 아무 것도 없었던 거 같은데…",
+              "japanese": "そういえば3日前に通ったときは何もなかったような…",
+              "pronunciation": "소-이에바 밋카 마에니 토옷타 토키와 나니모 나캇타 요-나…"
+            },
+            {
+              "speaker": "F",
+              "korean": "방심하지 마라",
+              "japanese": "油断するな",
+              "pronunciation": "유단스루나"
+            },
+            {
+              "speaker": "F",
+              "korean": "상대는 10년 전이라고는 하나 전직 왕 직속의 성기사였던 녀석이다",
+              "japanese": "相手は10年前とはいえ、元王直属の聖騎士だった奴だ",
+              "pronunciation": "아이테와 쥬-넨 마에토와 이에, 모토 오-초쿠조쿠노 세이키시닷타 야츠다"
+            },
+            {
+              "speaker": "I",
+              "korean": "걱정할 거 없습니다, 아리오니 씨",
+              "japanese": "心配いりませんよ、アリオニさん",
+              "pronunciation": "심파이 이리마센요, 아리오니산"
+            },
+            {
+              "speaker": "I",
+              "korean": "어차피 늙은이 아닙니까",
+              "japanese": "どうせ年寄りじゃないですか",
+              "pronunciation": "도-세 토시요리쟈 나이데스카"
+            },
+            {
+              "speaker": "J",
+              "korean": "맞아, 맞아",
+              "japanese": "そうそう",
+              "pronunciation": "소-소-"
+            },
+            {
+              "speaker": "J",
+              "korean": "츠이고 님 곁에서 단련을 한 우리들의 적이 아니라구요",
+              "japanese": "ツィーゴ様の元で鍛えた俺たちの敵じゃないですよ",
+              "pronunciation": "츠이고사마노 모토데 키타에타 오레타치노 테키쟈 나이데스요"
+            },
+            {
+              "speaker": "F",
+              "korean": "녀석들을 얕보지 마라",
+              "japanese": "奴らをなめるな",
+              "pronunciation": "야츠라오 나메루나"
+            },
+            {
+              "speaker": "F",
+              "korean": "전에도 말했었지",
+              "japanese": "前にも言ったはずだ",
+              "pronunciation": "마에니모 잇타 하즈다"
+            },
+            {
+              "speaker": "F",
+              "korean": "10년 전의 그 소동 때 수십 명의 성기사가 한 순간에…!",
+              "japanese": "10年前のあの騒動で、数十人の聖騎士が一瞬で…！",
+              "pronunciation": "쥬-넨 마에노 아노 소-도-데, 스-쥬-닌노 세이키시가 잇슌데…!"
+            },
+            {
+              "speaker": "K",
+              "korean": "그것도 말이죠…",
+              "japanese": "それも、ですよ…",
+              "pronunciation": "소레모, 데스요…"
+            },
+            {
+              "speaker": "F",
+              "korean": "뭐냐…!",
+              "japanese": "なんだ…！",
+              "pronunciation": "난다…!"
+            },
+            {
+              "speaker": "K",
+              "korean": "아뇨, 그게 조금 오버가 아닌 가 싶어서요",
+              "japanese": "いや、それがちょっとオーバーじゃないかと思いまして",
+              "pronunciation": "이야, 소레가 춋토 오-바-쟈 나이카토 오모이마시테"
+            },
+            {
+              "speaker": "F",
+              "korean": "뭐?!",
+              "japanese": "なに?!",
+              "pronunciation": "나니?!"
+            },
+            {
+              "speaker": "F",
+              "korean": "무슨 뜻이지?",
+              "japanese": "どういう意味だ？",
+              "pronunciation": "도-이우 이미다?"
+            },
+            {
+              "speaker": "K",
+              "korean": "한 명만 있어도 한 나라의 병력과 대등하다고 하는 성기사가",
+              "japanese": "一人いるだけで一国の兵力と互角と言われる聖騎士が",
+              "pronunciation": "히토리 이루 다케데 잇코쿠노 헤이료쿠토 고카쿠토 이와레루 세이키시가"
+            },
+            {
+              "speaker": "K",
+              "korean": "그렇게 수십 명씩이나…",
+              "japanese": "そうも数十人も…",
+              "pronunciation": "소-모 스-쥬-닌모…"
+            },
+            {
+              "speaker": "K",
+              "korean": "안 그래?",
+              "japanese": "だろ？",
+              "pronunciation": "다로?"
+            },
+            {
+              "speaker": "F",
+              "korean": "나는 직접 내 눈으로 봤단 말이다!",
+              "japanese": "俺は直接この目で見たんだ！",
+              "pronunciation": "오레와 쵸쿠세츠 코노 메데 미탄다!"
+            },
+            {
+              "speaker": "L",
+              "korean": "자, 참으시고…",
+              "japanese": "まあ、おさえて…",
+              "pronunciation": "마-, 오사에테…"
+            },
+            {
+              "speaker": "L",
+              "korean": "우선 아리오니 씨는 물러나계십시오",
+              "japanese": "まずはアリオニさんは下がっていてください",
+              "pronunciation": "마즈와 아리오니산와 사갓테이테 쿠다사이"
+            },
+            {
+              "speaker": "L",
+              "korean": "여긴 저희들끼리 어떻게든 할 테니까요",
+              "japanese": "ここは我々だけでなんとかしますから",
+              "pronunciation": "코코와 와레와레 다케데 난토카 시마스카라"
+            },
+            {
+              "speaker": "L",
+              "korean": "인마, 나와!",
+              "japanese": "おい、出てこい！",
+              "pronunciation": "오이, 데테코이!"
+            },
+            {
+              "speaker": "A",
+              "korean": "불렀어?",
+              "japanese": "呼んだか？",
+              "pronunciation": "욘다카?"
+            },
+            {
+              "speaker": "L",
+              "korean": "네놈은 뭐냐!",
+              "japanese": "貴様は何だ！",
+              "pronunciation": "키사마와 난다!"
+            },
+            {
+              "speaker": "A",
+              "korean": "나는 이 가게의 마스터다",
+              "japanese": "俺はこの店のマスターだ",
+              "pronunciation": "오레와 코노 미세노 마스타-다"
+            },
+            {
+              "speaker": "L",
+              "korean": "녹슨 기사는 어디에 있지?",
+              "japanese": "錆びた騎士はどこにいる？",
+              "pronunciation": "사비타 키시와 도코니 이루?"
+            },
+            {
+              "speaker": "L",
+              "korean": "그 녀석을 내놔",
+              "japanese": "そいつをだせ",
+              "pronunciation": "소이츠오 다세"
+            },
+            {
+              "speaker": "A",
+              "korean": "나와",
+              "japanese": "出てこい",
+              "pronunciation": "데테코이"
+            },
+            {
+              "speaker": "호크",
+              "korean": "나를 불렀는가?",
+              "japanese": "俺を呼んだか？",
+              "pronunciation": "오레오 욘다카?"
+            },
+            {
+              "speaker": "호크",
+              "korean": "이 녹슨 기사 호크를!",
+              "japanese": "この錆びた騎士ホークを！",
+              "pronunciation": "코노 사비타 키시 호-쿠오!"
+            },
+            {
+              "speaker": "L",
+              "korean": "이, 이 돼지가 일곱개의 대죄입니까?",
+              "japanese": "こ、この豚が七つの大罪だと？",
+              "pronunciation": "코, 코노 부타가 나나츠노 타이자이다토?"
+            },
+            {
+              "speaker": "M",
+              "korean": "그럴 리가 없잖아!",
+              "japanese": "そんなわけないだろ！",
+              "pronunciation": "손나 와케 나이다로!"
+            },
+            {
+              "speaker": "L",
+              "korean": "무, 무슨 소릴…!",
+              "japanese": "な、何を…！",
+              "pronunciation": "나, 나니오…!"
+            },
+            {
+              "speaker": "호크",
+              "korean": "나는 잔반 처리 기사단 단장이라고?",
+              "japanese": "俺は残飯処理騎士団の団長だぞ？",
+              "pronunciation": "오레와 잔판쇼리 키시단노 단쵸-다조?"
+            },
+            {
+              "speaker": "M",
+              "korean": "그딴 기사단이 있겠냐?!",
+              "japanese": "そんな騎士団あるわけないだろ?!",
+              "pronunciation": "손나 키시단 아루와케 나이다로?!"
+            },
+            {
+              "speaker": "A",
+              "korean": "이 돼지라도 상관없다면 굽든지 삶든지 좋을 대로",
+              "japanese": "この豚でもいいなら、焼くなり煮るなり好きにしろ",
+              "pronunciation": "코노 부타데모 이-나라, 야쿠나리 니루나리 스키니 시로"
+            },
+            {
+              "speaker": "호크",
+              "korean": "어느 쪽이든 사양하라고!",
+              "japanese": "どっちも御免だぜ！",
+              "pronunciation": "돗치모 고멘다제!"
+            },
+            {
+              "speaker": "L",
+              "korean": "애송이…",
+              "japanese": "ガキが…",
+              "pronunciation": "가키가…"
+            },
+            {
+              "speaker": "L",
+              "korean": "기사를 우롱하다니 배짱 한 번 좋구나…!",
+              "japanese": "騎士を侮辱するとは、いい度胸だ…！",
+              "pronunciation": "키시오 부죠쿠 스루토와, 이- 도쿄-다…!"
+            },
+            {
+              "speaker": "N",
+              "korean": "아리오니 씨, 뒤에서 여자가 도망쳤습니다!",
+              "japanese": "アリオニさん、後ろから女が逃げました！",
+              "pronunciation": "아리오니산, 우시로카라 온나가 니게마시타!"
+            },
+            {
+              "speaker": "L",
+              "korean": "뭐라고?",
+              "japanese": "なんだと？",
+              "pronunciation": "난다토?"
+            },
+            {
+              "speaker": "L",
+              "korean": "서둘러서 츠이고 님께 전해라!",
+              "japanese": "急いでツィーゴ様に伝えろ！",
+              "pronunciation": "이소이데 츠이고사마니 츠타에로!"
+            },
+            {
+              "speaker": "L",
+              "korean": "아마도 그 여자가 녹슨 기사다!",
+              "japanese": "おそらくあの女が錆びた騎士だ！",
+              "pronunciation": "오소라쿠 아노 온나가 사비타 키시다!"
+            },
+            {
+              "speaker": "L",
+              "korean": "쫓아라!",
+              "japanese": "追え！",
+              "pronunciation": "오에!"
+            },
+            {
+              "speaker": "N",
+              "korean": "넵!",
+              "japanese": "はい！",
+              "pronunciation": "하이!"
+            },
+            {
+              "speaker": "B",
+              "korean": "- 거기 서라!!",
+              "japanese": "－ そこに止まれ!!",
+              "pronunciation": "소코니 토마레!!"
+            },
+            {
+              "speaker": "C",
+              "korean": "- 놓치지 마라!",
+              "japanese": "－ 逃がすな！",
+              "pronunciation": "니가스나!"
+            },
+            {
+              "speaker": "D",
+              "korean": "꿀…",
+              "japanese": "ブヒ…",
+              "pronunciation": "부히…"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱 개의 대죄 (The seven Deadly Sins)",
+              "japanese": "七つの大罪 (The Seven Deadly Sins)",
+              "pronunciation": "나나츠노 타이자이 (The Seven Deadly Sins)"
+            },
+            {
+              "speaker": "B",
+              "korean": "잡아라!!",
+              "japanese": "捕まえろ!!",
+              "pronunciation": "츠카마에로!!"
+            },
+            {
+              "speaker": "E",
+              "korean": "일곱개의 대죄 중 하나를 몰아넣었다고 한다면…!",
+              "japanese": "七つの大罪の一人を追い詰めたとなれば…！",
+              "pronunciation": "나나츠노 타이자이노 히토리오 오이츠메타토 나레바…!"
+            },
+            {
+              "speaker": "E",
+              "korean": "상당한 공적…",
+              "japanese": "相当な功績…",
+              "pronunciation": "소-토-나 코-세키…"
+            },
+            {
+              "speaker": "E",
+              "korean": "그렇게 되면 나도 드디어 성기사 견습이…!",
+              "japanese": "こうなれば、俺もついに聖騎士見習いに…！",
+              "pronunciation": "코-나레바, 오레모 츠이니 세이키시 미나라이니…!"
+            },
+            {
+              "speaker": "E",
+              "korean": "뭐냐…?",
+              "japanese": "なんだ…？",
+              "pronunciation": "난다…?"
+            },
+            {
+              "speaker": "E",
+              "korean": "무슨 일이냐!",
+              "japanese": "どうしたんだ！",
+              "pronunciation": "도-시탄다!"
+            },
+            {
+              "speaker": "B",
+              "korean": "돼, 돼지가 돌진해옵니다!",
+              "japanese": "ぶ、豚が突っ込んできます！",
+              "pronunciation": "부, 부타가 츳콘데 키마스!"
+            },
+            {
+              "speaker": "B",
+              "korean": "오지 마…",
+              "japanese": "来るな…",
+              "pronunciation": "쿠루나…"
+            },
+            {
+              "speaker": "B",
+              "korean": "오지 마…!",
+              "japanese": "来るな…！",
+              "pronunciation": "쿠루나…!"
+            },
+            {
+              "speaker": "B",
+              "korean": "오지 마!!",
+              "japanese": "来るなぁ!!",
+              "pronunciation": "쿠루나-!!"
+            },
+            {
+              "speaker": "호크",
+              "korean": "없다…",
+              "japanese": "いない…",
+              "pronunciation": "이나이…"
+            },
+            {
+              "speaker": "호크",
+              "korean": "어기영차!",
+              "japanese": "よいしょ！",
+              "pronunciation": "요이쇼!"
+            },
+            {
+              "speaker": "A",
+              "korean": "네놈들에겐 원한은 없다만 이걸로 오늘 저녁밥의 양이 두 배!",
+              "japanese": "てめえらに恨みはねえが、これで今日の晩飯が倍だ！",
+              "pronunciation": "테메-라니 우라미와 네-가, 코레데 쿄-노 반메시가 바이다!"
+            },
+            {
+              "speaker": "F",
+              "korean": "저기…",
+              "japanese": "あの…",
+              "pronunciation": "아노…"
+            },
+            {
+              "speaker": "F",
+              "korean": "두 번씩이나 구해주시고…",
+              "japanese": "二度も助けていただいて…",
+              "pronunciation": "니도모 타스케테 이타다이테…"
+            },
+            {
+              "speaker": "F",
+              "korean": "어떤 감사의 말씀을 드려야 좋을지…",
+              "japanese": "なんとお礼を言ったらいいか…",
+              "pronunciation": "난토 오레이오 잇타라 이이카…"
+            },
+            {
+              "speaker": "호크",
+              "korean": "그러니까, 언니 그 자식 때려도 된다니까",
+              "japanese": "だから、お姉さん、そいつぶっ飛ばしていいって",
+              "pronunciation": "다카라, 오네-상, 소이츠 붓토바시테 이잇테"
+            },
+            {
+              "speaker": "A",
+              "korean": "그래서 넌 어째서 일곱개의 대죄를 찾고 있는 건데?",
+              "japanese": "で、お前はなんで七つの大罪を探してるんだ？",
+              "pronunciation": "데, 오마에와 난데 나나츠노 타이자이오 사가시테룬다?"
+            },
+            {
+              "speaker": "F",
+              "korean": "성기사들을 막기 위해서요",
+              "japanese": "聖騎士たちを止めるためです",
+              "pronunciation": "세이키시타치오 토메루 타메데스"
+            },
+            {
+              "speaker": "A",
+              "korean": "성기사를 막다니…",
+              "japanese": "聖騎士を止めるって…",
+              "pronunciation": "세이키시오 토메룻테…"
+            },
+            {
+              "speaker": "A",
+              "korean": "뭘?",
+              "japanese": "何を？",
+              "pronunciation": "나니오?"
+            },
+            {
+              "speaker": "A",
+              "korean": "성기사라고 하면 이 리오네스를 지키는 기사 중의 기사",
+              "japanese": "聖騎士って言えば、このリオネスを守る騎士の中の騎士",
+              "pronunciation": "세이키싯테 이에바, 코노 리오네스오 마모루 키시노 나카노 키시"
+            },
+            {
+              "speaker": "A",
+              "korean": "영웅이잖아?",
+              "japanese": "英雄だろ？",
+              "pronunciation": "에이유-다로?"
+            },
+            {
+              "speaker": "F",
+              "korean": "하지만 그런 사람들이 이 나라에 전쟁을 몰고 오려고 하고 있다면…",
+              "japanese": "でも、その人たちが、この国に戦争を起こそうとしているのなら…",
+              "pronunciation": "데모, 소노 히토타치가, 코노 쿠니니 센소-오 오코소-토 시테이루노나라…"
+            },
+            {
+              "speaker": "F",
+              "korean": "전일…",
+              "japanese": "先日…",
+              "pronunciation": "센지츠…"
+            },
+            {
+              "speaker": "F",
+              "korean": "성기사들의 손에 의해 국왕 이하 왕족들이 차례대로 구속되었어요",
+              "japanese": "聖騎士たちの手によって、国王陛下をはじめとする王族が次々と拘束されたんです",
+              "pronunciation": "세이키시타치노 테니 욧테, 코쿠오-헤이카오 하지메토스루 오-조쿠가 츠기츠기토 코-소쿠사레탄데스"
+            },
+            {
+              "speaker": "A",
+              "korean": "국왕은 병으로 인해 누운 거 아니었어?",
+              "japanese": "国王は病に伏しているんじゃなかったのか？",
+              "pronunciation": "코쿠오-와 야마이니 후시테 이룬쟈 나캇타노카?"
+            },
+            {
+              "speaker": "F",
+              "korean": "그건 성기사들이 흘린 헛소문이에요",
+              "japanese": "それは聖騎士たちが流したデマです",
+              "pronunciation": "소레와 세이키시타치가 나가시타 데마데스"
+            },
+            {
+              "speaker": "F",
+              "korean": "그들이 무엇을 위하여 전쟁을 벌일 생각인지는 모릅니다",
+              "japanese": "彼らが何のために戦争を起こそうとしているのかはわかりません",
+              "pronunciation": "카레라가 난노 타메니 센소-오 오코소-토 시테이루노카와 와카리마센"
+            },
+            {
+              "speaker": "F",
+              "korean": "다만 왕국과 주변의 거리와 마을에서 사람들을 강제적으로 모아선",
+              "japanese": "ただ、王国や周りの街や村から人々を強制的に集めては",
+              "pronunciation": "타다, 오-코쿠야 마와리노 마치야 무라카라 히토비토오 쿄-세이테키니 아츠메테와"
+            },
+            {
+              "speaker": "F",
+              "korean": "계속해서 그 준비를 하고 있어요",
+              "japanese": "その準備を進めているんです",
+              "pronunciation": "소노 쥰비오 스스메테 이룬데스"
+            },
+            {
+              "speaker": "F",
+              "korean": "조만간 이 근처에도 영향이 오겠지요",
+              "japanese": "近いうちにこの辺りにも影響が来るでしょう",
+              "pronunciation": "치카이우치니 코노 아타리니모 에이쿄-가 쿠루데쇼-"
+            },
+            {
+              "speaker": "A",
+              "korean": "진짜냐…",
+              "japanese": "マジか…",
+              "pronunciation": "마지카…"
+            },
+            {
+              "speaker": "A",
+              "korean": "큰일이구만",
+              "japanese": "大変だな",
+              "pronunciation": "타이헨다나"
+            },
+            {
+              "speaker": "호크",
+              "korean": "아니, 너는 여전히 느긋하구나?",
+              "japanese": "おい、お前は相変わらず呑気だな？",
+              "pronunciation": "오이, 오마에와 아이카와라즈 논키다나?"
+            },
+            {
+              "speaker": "A",
+              "korean": "하지만 말이야",
+              "japanese": "しかしな",
+              "pronunciation": "시카시나"
+            },
+            {
+              "speaker": "A",
+              "korean": "그거하고 일곱개의 대죄하고 무슨 상관이 있는데?",
+              "japanese": "それと七つの大罪に何の関係があるんだ？",
+              "pronunciation": "소레토 나나츠노 타이자이니 난노 칸케이가 아룬다?"
+            },
+            {
+              "speaker": "F",
+              "korean": "유일하게 성기사를 막을 수 있는 희망이 있다고 한다면…",
+              "japanese": "唯一、聖騎士を止められる希望があるとすれば…",
+              "pronunciation": "유이이츠, 세이키시오 토메라레루 키보-가 아루토 스레바…"
+            },
+            {
+              "speaker": "F",
+              "korean": "일곱개의 대죄뿐이에요!",
+              "japanese": "七つの大罪しかいないんです！",
+              "pronunciation": "나나츠노 타이자이시카 이나인데스!"
+            },
+            {
+              "speaker": "A",
+              "korean": "너 말이야",
+              "japanese": "お前な",
+              "pronunciation": "오마에나"
+            },
+            {
+              "speaker": "A",
+              "korean": "일곱개의 대죄가 대체 어떤 녀석들이 알고서 찾고 있는 거야?",
+              "japanese": "七つの大罪が一体どんな奴らなのか、わかってて探しているのか？",
+              "pronunciation": "나나츠노 타이자이가 잇타이 돈나 야츠라나노카, 와캇테테 사가시테이루노카?"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱개의 대죄. 일곱 마리의 짐승의 심볼을 몸에 새긴 일곱 명의 흉악한 대죄인들이 모여 결성된 왕국 최강 최악의 기사단. 그들은 지금으로부터 10년 전에 왕국 전복을 꾀한 혐의로 왕국의 모든 성기사의 총 공격을 받아 뿔뿔이 흩어졌다…",
+              "japanese": "七つの大罪。七つの獣のシンボルを体に刻んだ、七人の凶悪な大罪人が集って結成された、王国最強最悪の騎士団。彼らは今から10年前に、王国転覆を企てた嫌疑で、王国の全聖騎士の総攻撃を受け、四散した…",
+              "pronunciation": "나나츠노 타이자이. 나나츠노 케모노노 심보루오 카라다니 키잔다, 시치닌노 쿄-아쿠나 다이자인인가 츠돗테 켓세이사레타, 오-코쿠 사이쿄- 사이아쿠노 키시단. 카레라와 이마카라 쥬-넨 마에니, 오-코쿠 텐푸쿠오 쿠와다테타 겐기로, 오-코쿠노 젠세이키시노 소-코-게키오 우케, 시산시타…"
+            },
+            {
+              "speaker": "호크",
+              "korean": "그래서 전부 죽었다는 소문도 있었지?",
+              "japanese": "それで、全員死んだって噂もあったんだろ？",
+              "pronunciation": "소레데, 젠인 신닷테 우와사모 앗탄다로?"
+            },
+            {
+              "speaker": "F",
+              "korean": "그런 굉장한 사람들이 그렇게 쉽게 죽을 리가 없어요!",
+              "japanese": "そんな凄い人たちが、そんな簡単に死ぬはずがない！",
+              "pronunciation": "손나 스고이 히토타치가, 손나 칸탄니 시누 하즈가 나이!"
+            },
+            {
+              "speaker": "A",
+              "korean": "하지만 대역죄인이잖아?",
+              "japanese": "だが、大逆罪人だぜ？",
+              "pronunciation": "다가, 다이갸쿠자인인 다제?"
+            },
+            {
+              "speaker": "F",
+              "korean": "지금 현실에서 사람들을 괴롭게 하는 건 성기사들이라구요!",
+              "japanese": "今の現実で人々を苦しめているのは、聖騎士たちじゃないですか！",
+              "pronunciation": "이마노 겐지츠데 히토비토오 쿠루시메테이루노와, 세이키시타치쟈 나이데스카!"
+            },
+            {
+              "speaker": "F",
+              "korean": "옛날에…",
+              "japanese": "昔…",
+              "pronunciation": "무카시…"
+            },
+            {
+              "speaker": "F",
+              "korean": "제가 아직 5살인가 6살일 때 아버지께서 자주 말씀하셨어요",
+              "japanese": "私がまだ5歳か6歳の頃、父がよく話してくれたんです",
+              "pronunciation": "와타시가 마다 고사이카 롯사이노 코로, 치치가 요쿠 하나시테쿠레탄데스"
+            },
+            {
+              "speaker": "F",
+              "korean": "그들이…!",
+              "japanese": "彼らが…！",
+              "pronunciation": "카레라가…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "일곱개의 대죄야말로 최고의…!",
+              "japanese": "七つの大罪こそ、最高の…！",
+              "pronunciation": "나나츠노 타이자이코소, 사이코-노…!"
+            },
+            {
+              "speaker": "G",
+              "korean": "좀 봐주라!!",
+              "japanese": "勘弁してくれ!!",
+              "pronunciation": "칸벤시테쿠레!!"
+            },
+            {
+              "speaker": "H",
+              "korean": "어이쿠…",
+              "japanese": "おっと…",
+              "pronunciation": "옷토…"
+            },
+            {
+              "speaker": "H",
+              "korean": "신고가 들어왔던 인간인지 아닌지 확인하는 걸 잊었다",
+              "japanese": "通報のあった人間かどうか確認し忘れた",
+              "pronunciation": "츠-호-노 앗타 닌겐카 도-카카쿠닌시 와스레타"
+            },
+            {
+              "speaker": "H",
+              "korean": "결정",
+              "japanese": "決定",
+              "pronunciation": "켓테이"
+            },
+            {
+              "speaker": "H",
+              "korean": "신원 불명자 2명 사망",
+              "japanese": "身元不明者2名死亡",
+              "pronunciation": "미모토후메이샤 니메이 시보-"
+            },
+            {
+              "speaker": "I",
+              "korean": "그런 걸로 되겠는가?",
+              "japanese": "そんなことでいいのか？",
+              "pronunciation": "손나 코토데 이이노카?"
+            },
+            {
+              "speaker": "H",
+              "korean": "하, 하지만 절벽 아래에 아리오니 씨가…!",
+              "japanese": "は、だが、崖の下にアリオニさんが…！",
+              "pronunciation": "하, 다가, 가케노 시타니 아리오니상가…!"
+            },
+            {
+              "speaker": "H",
+              "korean": "그렇다면 3명 사망으로 해두면 된다",
+              "japanese": "なら、3名死亡としておけばいい",
+              "pronunciation": "나라, 산메이 시보-토 시테 오케바 이이"
+            },
+            {
+              "speaker": "I",
+              "korean": "그런…!",
+              "japanese": "そんな…！",
+              "pronunciation": "손나…!"
+            },
+            {
+              "speaker": "I",
+              "korean": "츠이고 님, 그건 너무하십니다!",
+              "japanese": "ツィーゴ様、それはあんまりです！",
+              "pronunciation": "츠이고사마, 소레와 안마리데스!"
+            },
+            {
+              "speaker": "H",
+              "korean": "그렇다면 7명 사망을 원하는 가?",
+              "japanese": "ならば7名死亡を望むのか？",
+              "pronunciation": "나라바 나나메이 시보-오 노조무노카?"
+            },
+            {
+              "speaker": "I",
+              "korean": "그것만은…!",
+              "japanese": "それは…！",
+              "pronunciation": "소레와…!"
+            },
+            {
+              "speaker": "I",
+              "korean": "용서를…!",
+              "japanese": "ご勘弁を…！",
+              "pronunciation": "고칸벤오…!"
+            },
+            {
+              "speaker": "A",
+              "korean": "영차…",
+              "japanese": "よいしょ…",
+              "pronunciation": "요이쇼…"
+            },
+            {
+              "speaker": "J",
+              "korean": "아, 아리오니 씨…!",
+              "japanese": "あ、アリオニさん…！",
+              "pronunciation": "아, 아리오니산…!"
+            },
+            {
+              "speaker": "H",
+              "korean": "너희들은 왜 멋대로 살아있는 것이냐!!",
+              "japanese": "貴様たちはなぜ勝手に生きているのだ!!",
+              "pronunciation": "키사마타치와 나제 캇테니 이키테이루노다!!"
+            },
+            {
+              "speaker": "H",
+              "korean": "내 사망 결정을 변경하지 마라!",
+              "japanese": "俺の死亡決定を覆すな！",
+              "pronunciation": "오레노 시보- 켓테이오 쿠츠가에스나!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "멋대로 결정하지 마!!",
+              "japanese": "勝手に決めるな!!",
+              "pronunciation": "캇테니 키메루나!!"
+            },
+            {
+              "speaker": "A",
+              "korean": "야, 깨있어?",
+              "japanese": "おい、起きてるか？",
+              "pronunciation": "오이, 오키테루카?"
+            },
+            {
+              "speaker": "F",
+              "korean": "아, 네…!",
+              "japanese": "あ、はい…！",
+              "pronunciation": "아, 하이…!"
+            },
+            {
+              "speaker": "A",
+              "korean": "좋아",
+              "japanese": "よし",
+              "pronunciation": "요시"
+            },
+            {
+              "speaker": "A",
+              "korean": "내가 신호를 주면 숲으로 달려",
+              "japanese": "俺が合図をしたら、森へ走れ",
+              "pronunciation": "오레가 아이즈오 시타라, 모리에 하시레"
+            },
+            {
+              "speaker": "A",
+              "korean": "알았지?",
+              "japanese": "いいな？",
+              "pronunciation": "이이나?"
+            },
+            {
+              "speaker": "F",
+              "korean": "아, 네…!",
+              "japanese": "あ、はい…！",
+              "pronunciation": "아, 하이…!"
+            },
+            {
+              "speaker": "H",
+              "korean": "그래서 어느 쪽이 일곱개의 대죄로 추정되는 인물인가?",
+              "japanese": "それで、どちらが七つの大罪と思われる人物だ？",
+              "pronunciation": "소레데, 도치라가 나나츠노 타이자이토 오모와레루 진부츠다?"
+            },
+            {
+              "speaker": "H",
+              "korean": "어느 쪽도 수배서와는 닮지 않은 것 같다만…",
+              "japanese": "どちらも手配書とは似ていないようだが…",
+              "pronunciation": "도치라모 테하이쇼토와 니테이나이 요-다가…"
+            },
+            {
+              "speaker": "H",
+              "korean": "이거 나도 운이 좋구먼…",
+              "japanese": "こりゃ俺も運がいいな…",
+              "pronunciation": "코랴 오레모 운가 이이나…"
+            },
+            {
+              "speaker": "H",
+              "korean": "그 귀걸이에 있는 문장은 왕가의 것이군",
+              "japanese": "その耳飾りの紋章は王家のものだな",
+              "pronunciation": "소노 미미카자리노 몬쇼-와 오-케노 모노다나"
+            },
+            {
+              "speaker": "H",
+              "korean": "즉 그대는 결정!",
+              "japanese": "つまり、貴殿は決定！",
+              "pronunciation": "츠마리, 키덴와 켓테이!"
+            },
+            {
+              "speaker": "H",
+              "korean": "엘리자베스 왕녀!",
+              "japanese": "エリザベス王女！",
+              "pronunciation": "에리자베스 오-죠!"
+            },
+            {
+              "speaker": "K",
+              "korean": "엘리자베스 왕녀…?",
+              "japanese": "エリザベス王女…？",
+              "pronunciation": "에리자베스 오-죠?"
+            },
+            {
+              "speaker": "L",
+              "korean": "엘리자베스 왕녀라고 하면 이 나라의 제3왕녀님이잖아!",
+              "japanese": "エリザベス王女といえば、この国の第三王女様じゃないか！",
+              "pronunciation": "에리자베스 오-죠토 이에바, 코노 쿠니노 다이산 오-죠사마쟈 나이카!"
+            },
+            {
+              "speaker": "H",
+              "korean": "그대에겐 왕국에서 수색 지령이 떨어졌습니다",
+              "japanese": "貴殿には王国より捜索の指令が出ております",
+              "pronunciation": "키덴니와 오-코쿠요리 소-사쿠노 시레이가 데테오리마스"
+            },
+            {
+              "speaker": "H",
+              "korean": "생포하라는 명령입니다만…",
+              "japanese": "生け捕りにせよとの命令ですが…",
+              "pronunciation": "이케도리니 세요토노 메이레이데스가…"
+            },
+            {
+              "speaker": "H",
+              "korean": "사고사라고 한다면 어쩔 수 없지 않겠습니까…",
+              "japanese": "事故死とあれば、仕方ないでしょう…",
+              "pronunciation": "지코시토 아레바, 시카타 나이데쇼-…"
+            },
+            {
+              "speaker": "A",
+              "korean": "달려!!",
+              "japanese": "走れ!!",
+              "pronunciation": "하시레!!"
+            },
+            {
+              "speaker": "F",
+              "korean": "저는 아직 잡힐 수는…!",
+              "japanese": "私はまだ捕まるわけには…！",
+              "pronunciation": "와타시와 마다 츠카마루 와케니와…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "포기할 수는 없어요!",
+              "japanese": "諦めるわけにはいきません！",
+              "pronunciation": "아키라메루 와케니와 이키마센!"
+            },
+            {
+              "speaker": "H",
+              "korean": "그러면 결정!!",
+              "japanese": "ならば決定!!",
+              "pronunciation": "나라바 켓테이!!"
+            },
+            {
+              "speaker": "H",
+              "korean": "사고사!!",
+              "japanese": "事故死!!",
+              "pronunciation": "지코시!!"
+            },
+            {
+              "speaker": "A",
+              "korean": "안녕~",
+              "japanese": "さよなら～",
+              "pronunciation": "사요나라~"
+            },
+            {
+              "speaker": "A",
+              "korean": "호크도 무사",
+              "japanese": "ホークも無事",
+              "pronunciation": "호-쿠모 부지"
+            },
+            {
+              "speaker": "A",
+              "korean": "호크도 무사한 모양이네",
+              "japanese": "ホークも無事みたいだな",
+              "pronunciation": "호-쿠모 부지 미타이다나"
+            },
+            {
+              "speaker": "호크",
+              "korean": "이 돼지 꼬챙이 상태가 무사한 거라고…?",
+              "japanese": "この豚の丸焼き状態が無事だっていうのか…?",
+              "pronunciation": "코노 부타노 마루야키 죠-타이가 부지닷테 이우노카…?"
+            },
+            {
+              "speaker": "호크",
+              "korean": "으앙…!",
+              "japanese": "うわ～ん…！",
+              "pronunciation": "우와-앙…!"
+            },
+            {
+              "speaker": "호크",
+              "korean": "엄마!!",
+              "japanese": "お母ちゃん!!",
+              "pronunciation": "오카-짱!!"
+            },
+            {
+              "speaker": "A",
+              "korean": "돼지…?",
+              "japanese": "豚…？",
+              "pronunciation": "부타…?"
+            },
+            {
+              "speaker": "A",
+              "korean": "뭐 좋다",
+              "japanese": "まあいいや",
+              "pronunciation": "마- 이이야"
+            },
+            {
+              "speaker": "A",
+              "korean": "엘리자베스…?",
+              "japanese": "エリザベス…？",
+              "pronunciation": "에리자베스…?"
+            },
+            {
+              "speaker": "A",
+              "korean": "야…",
+              "japanese": "おい…",
+              "pronunciation": "오이…"
+            },
+            {
+              "speaker": "A",
+              "korean": "어디가?",
+              "japanese": "どこに行く？",
+              "pronunciation": "도코니 이쿠?"
+            },
+            {
+              "speaker": "F",
+              "korean": "도망칠 수 없어요",
+              "japanese": "逃げられません",
+              "pronunciation": "니게라레마센"
+            },
+            {
+              "speaker": "A",
+              "korean": "너…",
+              "japanese": "お前…",
+              "pronunciation": "오마에…"
+            },
+            {
+              "speaker": "A",
+              "korean": "포기할 수는 없다고 그랬잖아?",
+              "japanese": "諦めるわけにはいかないって言っただろ？",
+              "pronunciation": "아키라메루 와케니와 이카나잇테 잇타다로?"
+            },
+            {
+              "speaker": "F",
+              "korean": "제가 얌전히 투항하면 당신의 목숨은 함부로 뺐지 않을 거예요",
+              "japanese": "私が大人しく投降すれば、あなたの命は取らないはずです",
+              "pronunciation": "와타시가 오토나시쿠 토-코-스레바, 아나타노 이노치와 토라나이 하즈데스"
+            },
+            {
+              "speaker": "F",
+              "korean": "부탁이에요…!",
+              "japanese": "お願いです…！",
+              "pronunciation": "오네가이데스…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "당신만이라도 도망쳐주세요…!",
+              "japanese": "あなただけでも逃げてください…！",
+              "pronunciation": "아나타다케데모 니게테 쿠다사이…!"
+            },
+            {
+              "speaker": "A",
+              "korean": "어떻게 하든 간에 저래서야 우리 둘 다 죽일 생각인데",
+              "japanese": "どうせ、あれじゃ俺たち二人とも殺す気だぜ",
+              "pronunciation": "도-세, 아레쟈 오레타치 후타리토모 코로스 키다제"
+            },
+            {
+              "speaker": "A",
+              "korean": "어째서…!",
+              "japanese": "どうして…！",
+              "pronunciation": "도-시테…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "저는 기뻤어요…!",
+              "japanese": "私、嬉しかったんです…！",
+              "pronunciation": "와타시, 우레시캇탄데스…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "혼자서 일곱개의 대죄를 찾는 여행을 시작해서…!",
+              "japanese": "一人で七つの大罪を探す旅を始めて…！",
+              "pronunciation": "히토리데 나나츠노 타이자이오 사가스 타비오 하지메테…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "여행을 해본 적이 없어서 엄청 불안했는데…!",
+              "japanese": "旅をしたことがなくて、すごく不安だったのに…！",
+              "pronunciation": "타비오 시타 코토가 나쿠테, 스고쿠 후안닷타노니…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "정체가 들키지 않도록",
+              "japanese": "正体がバレないように",
+              "pronunciation": "쇼-타이가 바레나이 요-니"
+            },
+            {
+              "speaker": "F",
+              "korean": "익숙하지 못한 갑옷으로 지쳐 쓰러질 때까지 걸었는데…!",
+              "japanese": "慣れない鎧で疲れ果てて倒れるまで歩いたのに…!",
+              "pronunciation": "나레나이 요로이데 츠카레하테테 타오레루마데 아루이타노니…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "하지만 누구를 의지하지도 못해서…!",
+              "japanese": "でも、誰にも頼ることができなくて…！",
+              "pronunciation": "데모, 다레니모 타요루 코토가 데키나쿠테…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "그런데 당신은 어디 사는 누군지도 모를 저에게 상냥하게 대해줬어요",
+              "japanese": "なのに、あなたは、どこの誰ともわからない私に優しくしてくれました",
+              "pronunciation": "나노니, 아나타와, 도코노 다레토모 와카라나이 와타시니 야사시쿠 시테쿠레마시타"
+            },
+            {
+              "speaker": "F",
+              "korean": "그래서 저는 이름도 모르는 당신을 더 이상 말려들게 하고 싶지 않아요…!",
+              "japanese": "だから、私は、名前も知らないあなたをこれ以上巻き込みたくないんです…！",
+              "pronunciation": "다카라, 와타시와, 나마에모 시라나이 아나타오 코레이죠- 마키코미타쿠 나인데스…!"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "메리오다스",
+              "japanese": "メリオダス",
+              "pronunciation": "메리오다스"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "그게 내 이름이야",
+              "japanese": "それが俺の名前だ",
+              "pronunciation": "소레가 오레노 나마에다"
+            },
+            {
+              "speaker": "F",
+              "korean": "네…?",
+              "japanese": "え…？",
+              "pronunciation": "에…?"
+            },
+            {
+              "speaker": "F",
+              "korean": "설마…!",
+              "japanese": "まさか…！",
+              "pronunciation": "마사카…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "그럴 리가…!",
+              "japanese": "そんなはずは…！",
+              "pronunciation": "손나 하즈와…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "왜냐하면 당신은…!",
+              "japanese": "だってあなたは…！",
+              "pronunciation": "닷테 아나타와…!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "그 녀석은 어디에 있어?!",
+              "japanese": "あの野郎はどこにいる?!",
+              "pronunciation": "아노 야로-와 도코니 이루?!"
+            },
+            {
+              "speaker": "G",
+              "korean": "아리오니 씨…",
+              "japanese": "アリオニさん…",
+              "pronunciation": "아리오니산…"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "그 검을 가진 녀석 말이야!",
+              "japanese": "あの剣を持った奴だ！",
+              "pronunciation": "아노 켄오 못타 야츠다!"
+            },
+            {
+              "speaker": "G",
+              "korean": "진정하십쇼, 아리오니 씨",
+              "japanese": "落ち着いてください、アリオニさん",
+              "pronunciation": "오치츠이테 쿠다사이, 아리오니산"
+            },
+            {
+              "speaker": "G",
+              "korean": "지금 츠이고 님이 몰아붙이고 있습니다",
+              "japanese": "今、ツィーゴ様が追い詰めています",
+              "pronunciation": "이마, 츠이고사마가 오이츠메테이마스"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "멍청아!",
+              "japanese": "バカもん！",
+              "pronunciation": "바카몬!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "그 녀석을 화나게 하면 안 돼!",
+              "japanese": "あの男を怒らせてはいけない！",
+              "pronunciation": "아노 오토코오 오코라세테와 이케나이!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "나라가 망한다고!",
+              "japanese": "国が滅ぶぞ！",
+              "pronunciation": "쿠니가 호로부조!"
+            },
+            {
+              "speaker": "G",
+              "korean": "네…?",
+              "japanese": "え…？",
+              "pronunciation": "에…?"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "그 녀석이 날 구해줬을 때 봤어…!",
+              "japanese": "あの男が俺を助けた時に見たんだ…！",
+              "pronunciation": "아노 오토코가 오레오 타스케타 토키니 미탄다…!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "그 녀석은 진짜야…!",
+              "japanese": "あいつは本物だ…！",
+              "pronunciation": "아이츠와 혼모노다…!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "가장 위험한 녀석이야…!",
+              "japanese": "一番ヤバい奴だ…！",
+              "pronunciation": "이치반 야바이 야츠다…!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "녀석의 몸에 있는 심볼은…!",
+              "japanese": "奴の体にあるシンボルは…！",
+              "pronunciation": "야츠노 카라다니 아루 심보루와…!"
+            },
+            {
+              "speaker": "아리오니",
+              "korean": "그건…!",
+              "japanese": "あれは…！",
+              "pronunciation": "아레와…!"
+            },
+            {
+              "speaker": "H",
+              "korean": "그 심볼은 짐승…",
+              "japanese": "そのシンボルは獣…",
+              "pronunciation": "소노 심보루와 케모노…"
+            },
+            {
+              "speaker": "H",
+              "korean": "아뇨, 드래곤…!",
+              "japanese": "いや、ドラゴン…!",
+              "pronunciation": "이야, 도라곤…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "어떻게 된 거냐…!",
+              "japanese": "どうなっている…！",
+              "pronunciation": "도-낫테 이루…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "이 몸의 검은 확실하게 이 녀석을 해치웠다…!",
+              "japanese": "この俺の剣は、確かにこいつを仕留めたはず…！",
+              "pronunciation": "코노 오레노 켄와, 타시카니 코이츠오 시토메타 하즈…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "하지만 일격을 받은 게 바로 이 몸이라고?!",
+              "japanese": "だが、一撃を受けたのはこの俺だと?!",
+              "pronunciation": "다가, 이치게키오 우케타노와 코노 오레다토?!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "그건 뭐냐…!",
+              "japanese": "あれはなんだ…！",
+              "pronunciation": "아레와 난다…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "날이 부러진 검…!",
+              "japanese": "刃が折れた剣…!",
+              "pronunciation": "야이바가 오레타 켄…!"
+            },
+            {
+              "speaker": "F",
+              "korean": "메리오다스, 당신은 정말로 그…!",
+              "japanese": "メリオダス、あなたは本当にその…!",
+              "pronunciation": "메리오다스, 아나타와 혼토-니 소노…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "잠깐…!",
+              "japanese": "待て…！",
+              "pronunciation": "마테…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "네놈의 얼굴은 본적이 있다",
+              "japanese": "貴様の顔は見たことがあるぞ",
+              "pronunciation": "키사마노 카오와 미타 코토가 아루조"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "아니, 그렇다고 한다면 어째서 예전의 모습에서 변하지 않았지?!",
+              "japanese": "いや、そうだとすれば、なぜ昔と姿が変わっていない?!",
+              "pronunciation": "이야, 소-다토 스레바, 나제 무카시토 스가타가 카왓테 이나이?!"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "내가 누군지 알았어…?",
+              "japanese": "俺が誰だか、わかったか…?",
+              "pronunciation": "오레가 다레다카, 와캇타카…?"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "서, 설마!!",
+              "japanese": "ま、まさか!!",
+              "pronunciation": "마, 마사카!!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "정말로 네놈인 거냐!!",
+              "japanese": "本当に貴様なのか!!",
+              "pronunciation": "혼토-니 키사마나노카!!"
+            },
+            {
+              "speaker": "I",
+              "korean": "겨, 결정…!",
+              "japanese": "け、決定…！",
+              "pronunciation": "케, 켓테이…!"
+            },
+            {
+              "speaker": "I",
+              "korean": "이 범상치 않은 힘은 그 전설의…!",
+              "japanese": "この尋常ならざる力は、あの伝説の…!",
+              "pronunciation": "코노 진죠-나라자루 치카라와, 아노 덴세츠노…!"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱개의 대죄, 분노의 죄, 드래곤 신(SIN), 메리오다스!",
+              "japanese": "七つの大罪、憤怒の罪、ドラゴン・シン、メリオダス！",
+              "pronunciation": "나나츠노 타이자이, 훈누노 츠미, 도라곤・신, 메리오다스!"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱개의 대죄 드래곤 신(SIN) 분노의 죄 메리오다스",
+              "japanese": "七つの大罪、ドラゴン・シン、憤怒の罪、メリオダス",
+              "pronunciation": "나나츠노 타이자이, 도라곤・신, 훈누노 츠미, 메리오다스"
+            },
+            {
+              "speaker": "서술",
+              "korean": "그치지 않는 사랑을 울부짖겠어",
+              "japanese": "やむことない愛を叫んで",
+              "pronunciation": "야무 코토 나이 아이오 사켄데"
+            },
+            {
+              "speaker": "서술",
+              "korean": "모든 것을 안고 여기에 있는 거야",
+              "japanese": "すべてを抱きしめて ここにいるんだ",
+              "pronunciation": "스베테오 다키시메테 코코니 이룬다"
+            },
+            {
+              "speaker": "서술",
+              "korean": "빛은 거기에 있어서",
+              "japanese": "光はそこにあって",
+              "pronunciation": "히카리와 소코니 앗테"
+            },
+            {
+              "speaker": "서술",
+              "korean": "양보할 수 없는 마음을 걸고서",
+              "japanese": "ゆずれない思いをかけて",
+              "pronunciation": "유즈레나이 오모이오 카케테"
+            },
+            {
+              "speaker": "서술",
+              "korean": "난 희망의 끝에서 살아가",
+              "japanese": "僕は希望の果てに生きる",
+              "pronunciation": "보쿠와 키보-노 하테니 이키루"
+            },
+            {
+              "speaker": "서술",
+              "korean": "꿈을 잇는 너와",
+              "japanese": "夢を繋ぐ君と",
+              "pronunciation": "유메오 츠나구 키미토"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱 개의 대죄 (The seven Deadly Sins)",
+              "japanese": "七つの大罪 (The Seven Deadly Sins)",
+              "pronunciation": "나나츠노 타이자이 (The Seven Deadly Sins)"
+            },
+            {
+              "speaker": "서술",
+              "korean": "시작을 언젠가 우리의 손으로 만드는 거야",
+              "japanese": "始まりをいつか僕らの手で創るんだ",
+              "pronunciation": "하지마리오 이츠카 보쿠라노 테데 츠쿠룬다"
+            },
+            {
+              "speaker": "서술",
+              "korean": "상냥한 네 목소리도 분명 세계를 바꿀 수 있어",
+              "japanese": "優しい君の声もきっと世界を変えられる",
+              "pronunciation": "야사시- 키미노 코에모 킷토 세카이오 카에라레루"
+            },
+            {
+              "speaker": "서술",
+              "korean": "아무도 혼자여서야 일어설 수는 없으니까",
+              "japanese": "誰も一人では立ち上がれないから",
+              "pronunciation": "다레모 히토리데와 타치아가레나이카라"
+            },
+            {
+              "speaker": "서술",
+              "korean": "서로 손을 뻗어서",
+              "japanese": "お互いに手を伸ばして",
+              "pronunciation": "오타가이니 테오 노바시테"
+            },
+            {
+              "speaker": "서술",
+              "korean": "한계를 넘어 내일로서",
+              "japanese": "限界を越えて明日へ",
+              "pronunciation": "겐카이오 코에테 아스에"
+            },
+            {
+              "speaker": "서술",
+              "korean": "그치지 않는 사랑을 울부짖겠어",
+              "japanese": "やむことない愛を叫んで",
+              "pronunciation": "야무 코토 나이 아이오 사켄데"
+            },
+            {
+              "speaker": "서술",
+              "korean": "서로 부딪치며 이해하는 거야",
+              "japanese": "ぶつかり合ってわかり合うんだ",
+              "pronunciation": "부츠카리앗테 와카리 아운다"
+            },
+            {
+              "speaker": "서술",
+              "korean": "빛을 만들어 낼 거야",
+              "japanese": "光を創り出すんだ",
+              "pronunciation": "히카리오 츠쿠리다슨다"
+            },
+            {
+              "speaker": "서술",
+              "korean": "포기 할 수 없는 마음을 가지고서",
+              "japanese": "諦められない心を持って",
+              "pronunciation": "아키라메라레나이 코코로오 못테"
+            },
+            {
+              "speaker": "서술",
+              "korean": "난 희망의 끝에서 살아가",
+              "japanese": "僕は希望の果てに生きる",
+              "pronunciation": "보쿠와 키보-노 하테니 이키루"
+            },
+            {
+              "speaker": "서술",
+              "korean": "꿈을 잇는 너와",
+              "japanese": "夢を繋ぐ君と",
+              "pronunciation": "유메오 츠나구 키미토"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "이걸로 하나는 찾았구나, 엘리자베스",
+              "japanese": "これで一人見つけたな、エリザベス",
+              "pronunciation": "코레데 히토리 미츠케타나, 에리자베스"
+            },
+            {
+              "speaker": "엘리자베스",
+              "korean": "네…?",
+              "japanese": "はい…？",
+              "pronunciation": "하이…?"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "나머지 여섯 명 말인데",
+              "japanese": "残り六人のことだが",
+              "pronunciation": "노코리 로쿠닌노 코토다가"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "나도 볼일이 있어서 요즘 그 녀석들을 찾기 시작했어",
+              "japanese": "俺も用があって、最近そいつらを探し始めたんだ",
+              "pronunciation": "오레모 요-가 앗테, 사이킨 소이츠라오 사가시 하지메탄다"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "정보를 모으기 위해서 술집을 하면서 말이야",
+              "japanese": "情報を集めるために、酒場をやりながらな",
+              "pronunciation": "죠-호-오 아츠메루 타메니, 사카바오 야리나가라나"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "여기에 예쁜 여점원이 있어준다면",
+              "japanese": "ここに可愛いウェイトレスがいてくれたら",
+              "pronunciation": "코코니 카와이- 웨이토레스가 이테쿠레타라"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "손님도 정보도 좀 더 많이 모일 텐데 말이야",
+              "japanese": "客も情報ももっと集まるのにな",
+              "pronunciation": "캬쿠모 죠-호-모 못토 아츠마루노니나"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "같이 갈 거지?",
+              "japanese": "一緒に行くよな？",
+              "pronunciation": "잇쇼니 이쿠요나?"
+            },
+            {
+              "speaker": "엘리자베스",
+              "korean": "네!",
+              "japanese": "はい！",
+              "pronunciation": "하이!"
+            },
+            {
+              "speaker": "A",
+              "korean": "츠이고 님, 정신 차리십시오…!",
+              "japanese": "ツィーゴ様、お気を確かに…！",
+              "pronunciation": "츠이고사마, 오키오 타시카니…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "와, 왕국에 증원을 요청해라…!",
+              "japanese": "お、王国に増援を要請しろ…！",
+              "pronunciation": "오-, 오-코쿠니 조-엔오 요-세-시로…!"
+            },
+            {
+              "speaker": "츠이고",
+              "korean": "이건 주, 중대사다!",
+              "japanese": "これはじゅ、重大事だ！",
+              "pronunciation": "코레와 쥬-, 쥬-다이지다!"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "타이밍 죽이지?!",
+              "japanese": "最高のタイミングだろ?!",
+              "pronunciation": "사이코-노 타이밍구다로?!"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "역시 호크 엄마!",
+              "japanese": "さすがホークのお母さん！",
+              "pronunciation": "사스가 호-쿠노 오카-상!"
+            },
+            {
+              "speaker": "호크",
+              "korean": "부르러 간 건 나거든?!",
+              "japanese": "呼びに行ったのは俺だぞ?!",
+              "pronunciation": "요비니 잇타노와 오레다조?!"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "자, 다음 마을로 가자!",
+              "japanese": "さあ、次の村へ行こう！",
+              "pronunciation": "사-, 츠기노 무라에 이코-!"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "출발하자, 호크 엄마!",
+              "japanese": "出発だ、ホークのお母さん！",
+              "pronunciation": "슛파츠다, 호-쿠노 오카-상!"
+            },
+            {
+              "speaker": "서술",
+              "korean": "이 만남이 우연인지 필연인지… 만나게 될 사람은 절망일지 희망일지… 이렇게 일곱개의 대죄를 찾는 저와 메리오다스님과의 모험이 시작되었습니다",
+              "japanese": "この出会いが偶然か必然か… 出会う人が絶望か希望か… こうして七つの大罪を探す私とメリオダス様との冒険が始まったのです",
+              "pronunciation": "코노 데아이카 구-젠카 히츠젠카… 데아우 히토가 제츠보-카 키보-카… 코-시테 나나츠노 타이자이오 사가스 와타시토 메리오다스사마토노 보-켄가 하지맛타노데스"
+            },
+            {
+              "speaker": "배경",
+              "korean": "【케인즈 집락에서 동쪽으로 38마일】",
+              "japanese": "【ケインズ集落から東へ38マイル】",
+              "pronunciation": "【케인즈 슈-라쿠카라 히가시에 산쥬-하치 마이루】"
+            },
+            {
+              "speaker": "배경",
+              "korean": "【솔가레스 성채】",
+              "japanese": "【ソルガレス城塞】",
+              "pronunciation": "【소루가레스 죠-사이】"
+            },
+            {
+              "speaker": "B",
+              "korean": "일곱개의 대죄…",
+              "japanese": "七つの大罪…",
+              "pronunciation": "나나츠노 타이자이…"
+            },
+            {
+              "speaker": "B",
+              "korean": "이번에야말로 진짜이길 바란다",
+              "japanese": "今度こそ本物であってくれ",
+              "pronunciation": "콘도코소 혼모노데 앗테쿠레"
+            },
+            {
+              "speaker": "B",
+              "korean": "10년씩이나 기다려왔다",
+              "japanese": "10年も待ってきたんだ",
+              "pronunciation": "쥬-넨모 맛테키탄다"
+            },
+            {
+              "speaker": "B",
+              "korean": "일곱개의 대죄를 멸하는 날을…!",
+              "japanese": "七つの大罪を滅する日を…！",
+              "pronunciation": "나나츠노 타이자이오 홋스루 히오…!"
+            },
+            {
+              "speaker": "서술",
+              "korean": "일곱개의 대죄를 찾는 메리오다스 일행의 여행에 새로운 동료가 추가되었다. 그 이름은 엘리자베스!",
+              "japanese": "七つの大罪を探すメリオダス一行の旅に、新たな仲間が加わった。その名はエリザベス！",
+              "pronunciation": "나나츠노 타이자이오 사가스 메리오다스 잇코-노 타비니, 아라타나 나카마가 쿠와왓타. 소노 나와 에리자베스!"
+            },
+            {
+              "speaker": "엘리자베스",
+              "korean": "엘리자베스에요",
+              "japanese": "エリザベスです",
+              "pronunciation": "에리자베스데스"
+            },
+            {
+              "speaker": "엘리자베스",
+              "korean": "부족한 몸이지만 잘 부탁드립니다!",
+              "japanese": "不束者ですが、よろしくお願いします！",
+              "pronunciation": "후츠츠카모노데스가, 요로시쿠 오네가이시마스!"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "그래, 잘 부탁한다",
+              "japanese": "おう、よろしくな",
+              "pronunciation": "오-, 요로시쿠나"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "그런데 부족한 몸이라니 무슨 뜻인지 아냐?",
+              "japanese": "ところで不束者ってどういう意味か知ってるか？",
+              "pronunciation": "토코로데 후츠츠카모놋테 도-이우 이미카 싯테루카?"
+            },
+            {
+              "speaker": "엘리자베스",
+              "korean": "모, 모르는데요…",
+              "japanese": "し、知らないです…",
+              "pronunciation": "시, 시라나이데스…"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "나도 그래",
+              "japanese": "俺もだ",
+              "pronunciation": "오레모다"
+            },
+            {
+              "speaker": "메리오다스",
+              "korean": "또 보자~",
+              "japanese": "またな～",
+              "pronunciation": "마타나~"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
