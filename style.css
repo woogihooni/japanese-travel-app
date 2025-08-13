@@ -45,13 +45,14 @@ main {
 /* 메인/서브 카테고리 버튼 스타일 */
 .main-category-button, .sub-situation-button {
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     font-size: 1.2rem;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 8px;
     cursor: pointer;
-    transition: background-color 0.2s;
+    text-align: left;
+    transition: background-color 0.2s, box-shadow 0.2s;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -95,72 +96,64 @@ main {
 .dialogue-box .speaker {
     font-weight: bold;
     color: #2980b9;
-    margin: 0 0 5px;
-}
-
-.dialogue-box .korean {
-    font-size: 1rem;
-    color: #333;
     margin: 0;
 }
 
-.dialogue-box hr {
-    border: 0;
-    border-top: 1px solid #eee;
-    margin: 10px 0;
-}
-
-/* 클릭 시 표시되는 일본어와 발음 스타일 */
-.dialogue-box .japanese, .dialogue-box .pronunciation {
-    display: none; /* 초기에는 숨김 */
+.dialogue-box .korean {
+    font-size: 1.1rem;
     margin: 10px 0 0 0;
 }
 
+.dialogue-box .japanese-content {
+    display: none;
+}
 .dialogue-box .japanese {
-    font-size: 1.2rem;
-    font-weight: bold; /* 일본어는 굵게 */
-    color: #2c3e50;
-}
-
-.dialogue-box .pronunciation {
-    font-size: 0.9rem;
-    color: #999;
-}
-
-/* 클릭 시 보여주기 */
-.dialogue-box.active .japanese,
-.dialogue-box.active .pronunciation {
-    display: block;
-}
-
-/* 대체 단어 버튼 컨테이너 */
-.replacements-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-top: 10px;
-    padding-top: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0 0 0;
     border-top: 1px solid #eee;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.dialogue-box .japanese ruby rt {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: #95a5a6;
+}
+.dialogue-box .pronunciation {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0 0 0;
 }
 
 /* 대체 단어 버튼 스타일 */
+.replacements-container {
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
 .replacement-button {
-    padding: 8px 12px;
-    border-radius: 20px;
-    border: 1px solid #3498db;
-    background-color: #f0f8ff;
-    color: #3498db;
-    font-size: 0.9rem;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f7f7f7;
     cursor: pointer;
-    transition: background-color 0.2s, color 0.2s;
+    transition: background-color 0.2s;
+    font-size: 0.9rem;
 }
 
 .replacement-button:hover {
-    background-color: #e8f0fe;
+    background-color: #e0e0e0;
 }
 
 .replacement-button.selected {
-    background-color: #3498db;
+    background-color: #2980b9;
     color: white;
-    font-weight: bold;
+    border-color: #2980b9;
 }

@@ -1,3 +1,4 @@
+
 // HTML 요소 가져오기
 const mainTitle = document.getElementById('main-title');
 const backButton = document.getElementById('back-button');
@@ -22,7 +23,7 @@ fetch('phrases.json')
 
 // 뒤로가기 버튼 클릭 이벤트 (하나의 버튼으로 모든 뒤로가기 처리)
 backButton.addEventListener('click', () => {
-    if (dialogueList.style.display === 'block') {
+    if (dialogueList.style.display === 'flex') {
         // 대화 목록 -> 서브 상황 목록
         displaySubSituations(currentMainCategory.main_category_title, currentMainCategory.sub_situations);
     } else if (subSituationList.style.display === 'flex') {
@@ -40,87 +41,126 @@ function displayMainCategories() {
     dialogueList.style.display = 'none';
 
     mainCategoryList.innerHTML = '';
-    if (currentData) {
-        currentData.forEach(category => {
-            const button = document.createElement('button');
-            button.className = 'main-category-button';
-            button.textContent = category.main_category_title;
-            button.addEventListener('click', () => {
-                currentMainCategory = category;
-                displaySubSituations(category.main_category_title, category.sub_situations);
-            });
-            mainCategoryList.appendChild(button);
+    currentData.forEach(category => {
+        const button = document.createElement('button');
+        button.className = 'main-category-button';
+        button.textContent = category.main_category_title;
+        button.addEventListener('click', () => {
+            currentMainCategory = category;
+            displaySubSituations(category.main_category_title, category.sub_situations);
         });
-    }
+        mainCategoryList.appendChild(button);
+    });
 }
 
 // 서브 상황 목록을 보여주는 함수
-function displaySubSituations(mainTitleText, subSituations) {
+function displaySubSituations(mainCategoryTitle, subSituations) {
     mainTitle.style.display = 'none';
     backButton.style.display = 'block';
     mainCategoryList.style.display = 'none';
     subSituationList.style.display = 'flex';
     dialogueList.style.display = 'none';
 
-    subSituationTitle.textContent = mainTitleText;
-    subSituationList.innerHTML = '';
-    subSituationList.appendChild(subSituationTitle);
-    
-    subSituations.forEach(sub => {
+    // 메인 카테고리 제목을 상단에 표시
+    subSituationTitle.textContent = mainCategoryTitle;
+
+    // 첫 번째 자식(제목)을 제외한 모든 자식 노드(기존 버튼)를 제거합니다.
+    let child = subSituationTitle.nextElementSibling;
+    while (child) {
+        subSituationList.removeChild(child);
+        child = subSituationTitle.nextElementSibling;
+    }
+
+    subSituations.forEach(situation => {
         const button = document.createElement('button');
         button.className = 'sub-situation-button';
-        button.textContent = sub.title;
+        button.textContent = situation.title;
         button.addEventListener('click', () => {
-            displayDialogue(mainTitleText, sub.title, sub.dialogues);
+            displayDialogue(mainCategoryTitle, situation.title, situation.dialogues);
         });
         subSituationList.appendChild(button);
     });
 }
 
-// 대화 문장을 보여주는 함수 (수정된 로직)
+// 대화 문장을 보여주는 함수
 function displayDialogue(mainTitleText, subTitle, dialogues) {
     mainTitle.style.display = 'none';
     backButton.style.display = 'block';
     mainCategoryList.style.display = 'none';
     subSituationList.style.display = 'none';
-    dialogueList.style.display = 'block';
+    dialogueList.style.display = 'flex';
 
     dialogueTitle.textContent = `${mainTitleText} - ${subTitle}`;
-    dialogueList.innerHTML = '';
-    dialogueList.appendChild(dialogueTitle);
+    
+    // 기존 대화 내용을 모두 제거하고 제목만 남깁니다.
+    let child = dialogueTitle.nextElementSibling;
+    while (child) {
+        dialogueList.removeChild(child);
+        child = dialogueTitle.nextElementSibling;
+    }
 
     dialogues.forEach(line => {
         const dialogueBox = document.createElement('div');
         dialogueBox.className = 'dialogue-box';
 
-        // 원문 텍스트를 data 속성에 저장
+        const japaneseHtmlContent = line.japanese_html || line.japanese;
+        
         dialogueBox.dataset.originalKorean = line.korean;
-        dialogueBox.dataset.originalJapanese = line.japanese;
+        dialogueBox.dataset.originalJapaneseHtml = japaneseHtmlContent;
         dialogueBox.dataset.originalPronunciation = line.pronunciation;
 
-        // 한글 대화 내용만 먼저 표시
         const koreanContent = document.createElement('div');
+        koreanContent.className = 'korean-content';
         koreanContent.innerHTML = `
             <p class="speaker">${line.speaker}</p>
             <hr>
             <p class="korean">${line.korean}</p>
         `;
+        
+        const japaneseContent = document.createElement('div');
+        japaneseContent.className = 'japanese-content';
 
-        // 일본어와 발음은 숨겨진 상태로 추가
-        const hiddenContent = document.createElement('div');
-        hiddenContent.innerHTML = `
-            <p class="japanese">${line.japanese}</p>
-            <p class="pronunciation">${line.pronunciation}</p>
-        `;
+        const japaneseTextContainer = document.createElement('div');
+        japaneseTextContainer.className = 'japanese-text';
+
+        const japaneseEl = document.createElement('p');
+        japaneseEl.className = 'japanese';
+        japaneseEl.innerHTML = japaneseHtmlContent;
+
+        const pronunciationEl = document.createElement('p');
+        pronunciationEl.className = 'pronunciation';
+        pronunciationEl.textContent = line.pronunciation;
+
+        japaneseTextContainer.appendChild(japaneseEl);
+        japaneseTextContainer.appendChild(pronunciationEl);
+
+        japaneseContent.appendChild(japaneseTextContainer);
         
         dialogueBox.appendChild(koreanContent);
-        dialogueBox.appendChild(hiddenContent);
+        dialogueBox.appendChild(japaneseContent);
 
-        // 클릭하면 일본어/발음 보여주기/숨기기 토글
-        dialogueBox.addEventListener('click', () => {
-            dialogueBox.classList.toggle('active');
+        // 한글 영역 클릭 이벤트: 일본어 문장 전체를 토글
+        koreanContent.addEventListener('click', (e) => {
+            const isJapaneseVisible = japaneseContent.style.display === 'block';
+
+            if (isJapaneseVisible) {
+                // 이미 일본어 문장이 보이면 숨김 (발음도 함께 숨김)
+                japaneseContent.style.display = 'none';
+                pronunciationEl.style.display = 'none';
+            } else {
+                // 일본어 문장이 숨겨져 있으면 보이게 하고, 발음은 숨김
+                japaneseContent.style.display = 'block';
+                pronunciationEl.style.display = 'none';
+            }
         });
-        
+
+        // 일본어 문장 클릭 이벤트: 발음만 토글
+        japaneseTextContainer.addEventListener('click', (e) => {
+            e.stopPropagation(); // 한글 영역 클릭 이벤트 전파 방지
+            const currentDisplay = pronunciationEl.style.display;
+            pronunciationEl.style.display = (currentDisplay === 'none' || currentDisplay === '') ? 'block' : 'none';
+        });
+
         // 대체 단어 기능 추가
         if (line.replacements && line.replacements.length > 0) {
             const replacementsContainer = document.createElement('div');
@@ -136,26 +176,34 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
                     e.stopPropagation(); // 대화 박스의 클릭 이벤트 전파 방지
                     
                     const koreanEl = dialogueBox.querySelector('.korean');
-                    const japaneseEl = dialogueBox.querySelector('.japanese');
-                    const pronunciationEl = dialogueBox.querySelector('.pronunciation');
+                    const japaneseElInBox = japaneseTextContainer.querySelector('.japanese');
+                    const pronunciationElInBox = japaneseTextContainer.querySelector('.pronunciation');
 
                     const currentButtons = replacementsContainer.querySelectorAll('.replacement-button');
 
                     // 이미 선택된 버튼을 다시 클릭하면 원문으로 돌아가도록 처리
                     if (button.classList.contains('selected')) {
                         koreanEl.textContent = dialogueBox.dataset.originalKorean;
-                        japaneseEl.textContent = dialogueBox.dataset.originalJapanese;
-                        pronunciationEl.textContent = dialogueBox.dataset.originalPronunciation;
+                        japaneseElInBox.innerHTML = dialogueBox.dataset.originalJapaneseHtml;
+                        pronunciationElInBox.textContent = dialogueBox.dataset.originalPronunciation;
                         currentButtons.forEach(btn => btn.classList.remove('selected'));
                     } else {
-                        // 교체 로직 (새로운 japanese_target과 pronunciation_target 사용)
+                        // 수정된 교체 로직: 원본 japanese_html에서 대상을 정확히 찾아 교체
+                        const japaneseTargetPattern = new RegExp(`<ruby>${firstReplacement.japanese_target}<rt>.*?</rt></ruby>`, 'g');
+                        const newJapaneseHtml = dialogueBox.dataset.originalJapaneseHtml.replace(
+                            japaneseTargetPattern,
+                            firstReplacement.japanese_alternatives_html[altIndex]
+                        );
+
+                        // 한글 교체 로직
                         const newKorean = dialogueBox.dataset.originalKorean.replace(firstReplacement.target, alt);
-                        const newJapanese = dialogueBox.dataset.originalJapanese.replace(firstReplacement.japanese_target, firstReplacement.japanese_alternatives[altIndex]);
+                        
+                        // 발음 교체 로직
                         const newPronunciation = dialogueBox.dataset.originalPronunciation.replace(firstReplacement.pronunciation_target, firstReplacement.pronunciation_alternatives[altIndex]);
                         
                         koreanEl.textContent = newKorean;
-                        japaneseEl.textContent = newJapanese;
-                        pronunciationEl.textContent = newPronunciation;
+                        japaneseElInBox.innerHTML = newJapaneseHtml;
+                        pronunciationElInBox.textContent = newPronunciation;
                         
                         currentButtons.forEach(btn => btn.classList.remove('selected'));
                         button.classList.add('selected');
@@ -163,7 +211,7 @@ function displayDialogue(mainTitleText, subTitle, dialogues) {
                 });
                 replacementsContainer.appendChild(button);
             });
-            dialogueBox.appendChild(replacementsContainer);
+            japaneseContent.appendChild(replacementsContainer);
         }
         
         dialogueList.appendChild(dialogueBox);
